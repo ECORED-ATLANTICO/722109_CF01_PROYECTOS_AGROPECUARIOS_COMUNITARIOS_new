@@ -64,9 +64,42 @@
       .h2(data-aos="fade-right") 1.2 Organización comunitaria, asociatividad rural y Agricultura Campesina, Familiar y Comunitaria (ACFC).
     .mb-0 
 
-    p.mb-5(data-aos="zoom-in-right") Las comunidades rurales enfrentan diversos desafíos relacionados con la producción agropecuaria, el acceso a recursos, la comercialización, la participación en la toma de decisiones y el desarrollo de sus territorios. Frente a esta realidad, la organización colectiva constituye una estrategia fundamental para fortalecer las capacidades de las personas y promover soluciones conjuntas a las necesidades e intereses comunes. Asimismo, la organización comunitaria y las diferentes formas de asociatividad favorecen la cooperación, el liderazgo y la gestión participativa, contribuyendo al bienestar y al desarrollo sostenible de las comunidades. 
-  
-    ///falta componente 
+    p.mb-4(data-aos="zoom-in-right") Las comunidades rurales enfrentan diversos desafíos relacionados con la producción agropecuaria, el acceso a recursos, la comercialización, la participación en la toma de decisiones y el desarrollo de sus territorios. Frente a esta realidad, la organización colectiva constituye una estrategia fundamental para fortalecer las capacidades de las personas y promover soluciones conjuntas a las necesidades e intereses comunes. Asimismo, la organización comunitaria y las diferentes formas de asociatividad favorecen la cooperación, el liderazgo y la gestión participativa, contribuyendo al bienestar y al desarrollo sostenible de las comunidades. 
+    
+    br
+
+    .bloque-texto-icono.mb-5(data-aos="fade-up")
+      .bloque-texto-icono__icono
+        figure.mb-0
+          img(src='@/assets/curso/tema1/img_5.svg', class="img-fluid")
+      .bloque-texto-icono__contenido
+        p.mb-0 En este sentido, resulta importante conocer las principales formas de organización presentes en el sector rural, su funcionamiento y los aportes que generan al desarrollo social, económico y territorial.
+
+    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+      .row.justify-content-center.align-items-center(titulo="Organización comunitaria")
+        .col-12.col-lg-9.mb-3.mb-lg-0.order-2.order-lg-1
+          p.mb-0 Corresponde a los procesos mediante los cuales las personas y comunidades se articulan para trabajar de manera conjunta en la solución de necesidades comunes y en el desarrollo de iniciativas sociales, productivas y territoriales. En el contexto rural, las organizaciones comunitarias permiten fortalecer la participación, y mejorar la capacidad de gestión de las comunidades.
+        .col-12.col-lg-3.mb-3.mb-lg-0.order-1.order-lg-2
+          figure
+            img(src='@/assets/curso/tema1/img_6.png', class="img-fluid")
+      .row.justify-content-center.align-items-center(titulo="Asociaciones campesinas")
+        .col-12.col-lg-9.mb-3.mb-lg-0.order-2.order-lg-1
+          p.mb-0 También entran las cooperativas, grupos productivos y demás formas organizativas constituyen espacios importantes para la toma de decisiones, la representación comunitaria y la ejecución de proyectos colectivos. Estas organizaciones facilitan la articulación entre comunidades e instituciones, fortaleciendo la gestión de recursos y el acceso a programas de apoyo técnico y financiero.
+        .col-12.col-lg-3.mb-3.mb-lg-0.order-1.order-lg-2
+          figure
+            img(src='@/assets/curso/tema1/img_7.png', class="img-fluid")
+      .row.justify-content-center.align-items-center(titulo="Asociatividad rural")
+        .col-12.col-lg-9.mb-3.mb-lg-0.order-2.order-lg-1
+          p.mb-0 La asociatividad rural consiste en la unión voluntaria de productores y actores comunitarios para alcanzar objetivos comunes. Esta estrategia fortalece la capacidad de negociación, mejora la competitividad, reduce costos y facilita el acceso a mercados y programas institucionales. Además, promueve el intercambio de conocimientos, la cooperación y el fortalecimiento organizacional de las comunidades rurales.
+        .col-12.col-lg-3.mb-3.mb-lg-0.order-1.order-lg-2
+          figure
+            img(src='@/assets/curso/tema1/img_8.png', class="img-fluid")
+      .row.justify-content-center.align-items-center(titulo="Agricultura Campesina, Familiar y Comunitaria (ACFC)")
+        .col-12.col-lg-9.mb-3.mb-lg-0.order-2.order-lg-1
+          p.mb-0 Reconoce el papel de las familias rurales en la producción de alimentos, la conservación de saberes tradicionales y el cuidado del territorio. Promueve prácticas sostenibles, el uso responsable de los recursos naturales y la autonomía de las comunidades, contribuyendo a la seguridad alimentaria, el desarrollo rural y la sostenibilidad ambiental.
+        .col-12.col-lg-3.mb-3.mb-lg-0.order-1.order-lg-2
+          figure
+            img(src='@/assets/curso/tema1/img_9.png', class="img-fluid")
 
     Separador
 
@@ -82,8 +115,17 @@
         .tarjeta.color-secundario-10.p-4.rounded-4.mb-3.h-100.d-flex.align-items-center(data-aos="zoom-in-right")
           p.mb-0 El desarrollo de las comunidades rurales requiere la participación de sus integrantes y el fortalecimiento permanente de las organizaciones que representan sus intereses. Cuando las personas se involucran en los procesos de planeación, gestión y toma de decisiones, se favorece la construcción de soluciones más pertinentes, sostenibles y acordes con las necesidades del territorio. Asimismo, las organizaciones fortalecidas cuentan con mayores capacidades para liderar iniciativas, gestionar recursos y promover el bienestar colectivo. 
         p.mb-4(data-aos="zoom-in-right") Por esta razón, resulta fundamental comprender la importancia de la participación comunitaria como un mecanismo de inclusión, corresponsabilidad y desarrollo local, así como reconocer el fortalecimiento organizacional como una estrategia clave para mejorar la gestión, la sostenibilidad y el impacto de las organizaciones rurales y comunitarias. 
-    
-    ///falta componente
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-9.mb-3.mb-lg-0.order-2.order-lg-1(data-aos="flip-left")
+        TabsB.color-primario
+          .py-4.py-md-5(titulo="Participación comunitaria" :icono="require('@/assets/curso/tema1/img_11.svg')")
+             p.mb-0 La participación comunitaria es un proceso mediante el cual personas y organizaciones intervienen en la identificación de necesidades, la toma de decisiones y la construcción de soluciones colectivas. En los territorios rurales, fortalece la integración comunitaria, promueve la corresponsabilidad, impulsa el desarrollo territorial y favorece respuestas acordes con las necesidades de la comunidad.
+          .py-4.py-md-5(titulo="Fortalecimiento organizacional" :icono="require('@/assets/curso/tema1/img_12.svg')")
+             p.mb-0 El fortalecimiento organizacional desarrolla capacidades administrativas, técnicas, operativas y sociales para mejorar la gestión, la planeación y la respuesta frente al entorno. Este proceso fortalece el liderazgo, la comunicación, el trabajo en equipo, la articulación institucional, la sostenibilidad comunitaria y la gobernanza, mediante roles claros y una gestión eficiente de recursos.
+      .col-6.col-lg-3.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="flip-left")
+        figure
+          img(src='@/assets/curso/tema1/img_13.png', class="img-fluid")
 
     .row.justify-content-center.align-items-center.mb-0
       .col-12.col-lg-10.mb-0(data-aos="flip-left") 
@@ -105,7 +147,16 @@
         .cajon.color-primario.p-4(data-aos="zoom-in-right")
           p.mb-0 En este contexto, resulta importante comprender la jerarquía normativa como fundamento para la interpretación y aplicación de las disposiciones legales, así como reconocer el marco legal que orienta las acciones y procesos vinculados al desarrollo del sector agropecuario en Colombia.
     
-    ///falta componente
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-9.mb-3.mb-lg-0.order-2.order-lg-1(data-aos="flip-left")
+        TabsB.color-primario
+          .py-4.py-md-5(titulo="La jerarquía normativa" :icono="require('@/assets/curso/tema1/img_15.svg')")
+             p.mb-0 Establece el orden de aplicación de las normas jurídicas en Colombia. La Constitución Política es la norma superior, seguida por las leyes, los decretos y las resoluciones, que regulan aspectos específicos y orientan la organización, gestión y funcionamiento de sectores como el agropecuario y rural.
+          .py-4.py-md-5(titulo="Marco legal del sector agropecuario" :icono="require('@/assets/curso/tema1/img_16.svg')")
+             p.mb-0 Comprende las normas que regulan la producción, la asistencia técnica, la comercialización, la extensión agropecuaria y las organizaciones rurales. Estas disposiciones promueven el desarrollo rural sostenible, la seguridad alimentaria y el fortalecimiento de los productores, facilitando la planificación y gestión de programas del sector.
+      .col-6.col-lg-3.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="flip-left")
+        figure
+          img(src='@/assets/curso/tema1/img_17.png', class="img-fluid")
 
     Separador
 
@@ -122,8 +173,8 @@
       h5 Figura 1.
       |    Estructura del Sistema Nacional de Innovación Agropecuaria
     figure(data-aos="flip-left").mb-5
-      img(src='@/assets/curso/tema1/img_2.svg', class="img-fluid d-none d-lg-block").mb-3
-      img(src='@/assets/curso/tema1/img_2.svg', class="img-fluid d-block d-lg-none").mb-3
+      img(src='@/assets/curso/tema2/img_13.svg', class="img-fluid d-none d-lg-block").mb-3
+      img(src='@/assets/curso/tema2/img_13.svg', class="img-fluid d-block d-lg-none").mb-3
       figcaption Nota. SENA, 2026
 
     .row.justify-content-center.align-items-center.mb-4

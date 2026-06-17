@@ -6,8 +6,15 @@
       .titulo-principal__numero
         span 2
       h1 Diagnóstico participativo y análisis organizacional
-    
-    ///falta componente 
+
+    .tarjeta--bg-img.color-acento-contenido-20.rounded-4.p-0.mb-5.overflow-hidden(data-aos="zoom-in-right")
+      .row.justify-content-center.align-items-center.mb-0.h-100
+        .col-12.col-lg-8.p-5
+          p.mb-4 El diagnóstico participativo y el análisis organizacional constituyen procesos fundamentales para comprender las dinámicas sociales, productivas y organizativas presentes en las comunidades rurales. A través de estas herramientas es posible identificar necesidades, reconocer problemáticas, analizar capacidades y formular estrategias orientadas al fortalecimiento organizacional y territorial.
+          p.mb-0 Los procesos participativos permiten integrar a los diferentes actores comunitarios en la construcción colectiva de información y en la toma de decisiones, favoreciendo la apropiación de las iniciativas y el fortalecimiento de la participación social. De igual manera, el análisis organizacional facilita comprender el funcionamiento interno de las organizaciones, así como los factores externos que influyen en su desempeño y sostenibilidad.
+        .col-12.col-lg-4.mb-lg-0.mb-3.p-0.align-self-stretch.d-none.d-lg-block
+          figure.p-0.m-0.h-100
+              img(src='@/assets/curso/tema2/img_1.png', class="img-fluid w-100 h-100 object-fit-cover").p-0
 
     p.mb-5(data-aos="zoom-in-right") El uso de metodologías participativas, herramientas de caracterización y técnicas de análisis contribuye al desarrollo de procesos de planeación más incluyentes y acordes con las necesidades del territorio. Asimismo, la gestión adecuada de la información fortalece la toma de decisiones y mejora la capacidad de respuesta de las organizaciones rurales frente a los retos sociales, productivos y ambientales.
 
@@ -19,7 +26,30 @@
 
     p.mb-5(data-aos="zoom-in-right") El diagnóstico rural participativo (DRP) es una metodología que permite a las comunidades analizar su realidad, identificar necesidades, reconocer problemáticas y proponer alternativas de solución mediante la participación de los actores del territorio. Esta metodología busca involucrar directamente a la comunidad en los procesos de análisis y planeación, promoviendo la construcción colectiva del conocimiento y el fortalecimiento de la participación comunitaria.
 
-    ///falta componente 
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12.col-lg-10.mb-3.mb-lg-0
+        .tarjeta.color-primario-10.p-4.rounded-4.mb-3.h-100.d-flex.align-items-center(data-aos="zoom-in-right")
+          h5.mb-0 Diagnostico rural participativo - DRP
+      .col-12.col-lg-10.mb-3.mb-lg-0
+        .tarjeta--container.row.mb-5
+          .col-md.tarjeta.color-secundario-10.p-5
+            .row.justify-content-center.align-items-center.mb-4
+              .col-6
+                figure
+                  img(src='@/assets/curso/tema2/img_2.svg', class="img-fluid")
+            p.mb-0.text-center Herramientas para un DRP.
+          .col-md.tarjeta.color-acento-contenido-10.p-5
+            .row.justify-content-center.align-items-center.mb-4
+              .col-6
+                figure
+                  img(src='@/assets/curso/tema2/img_3.svg', class="img-fluid")
+            p.mb-0.text-center Pasos en la preparación de un DRP.
+          .col-md.tarjeta.color-secundario-10.p-5
+            .row.justify-content-center.align-items-center.mb-4
+              .col-6
+                figure
+                  img(src='@/assets/curso/tema2/img_4.svg', class="img-fluid")
+            p.mb-0.text-center Trabajo en campo.
 
     p.mb-5(data-aos="zoom-in-right") El DRP parte del reconocimiento de que las comunidades poseen conocimientos, experiencias y capacidades que son fundamentales para comprender las dinámicas del territorio y plantear soluciones acordes con sus necesidades. Por esta razón, el diagnóstico participativo se desarrolla mediante espacios de diálogo, concertación y análisis colectivo.
 
@@ -85,7 +115,33 @@
 
     p.mb-5(data-aos="zoom-in-right") El reconocimiento de actores permite establecer relaciones de cooperación, identificar niveles de participación y analizar la influencia de cada grupo en los procesos comunitarios. Entre los actores más comunes se encuentran productores rurales, asociaciones campesinas, entidades públicas, organizaciones privadas, líderes comunitarios y organizaciones sociales.
 
-    ///falta componente 
+    .row.justify-content-center.mb-5
+      .col-12.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-up" data-aos-delay="100")
+        .tarjeta-img-titulo
+          .tarjeta-img-titulo__imagen
+            figure.mb-0
+              img(src='@/assets/curso/tema2/img_6.png', class="img-fluid")
+          .tarjeta-img-titulo__contenido
+            h5.tarjeta-img-titulo__titulo.mb-3 Identificación de actores
+            p.mb-0 Consiste en reconocer a las personas, grupos, organizaciones e instituciones que tienen interés, influencia o participación en un proyecto de desarrollo territorial. Estos actores pueden aportar recursos, conocimientos, apoyo institucional o verse afectados por las decisiones y acciones implementadas.
+
+      .col-12.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-up" data-aos-delay="200")
+        .tarjeta-img-titulo
+          .tarjeta-img-titulo__imagen
+            figure.mb-0
+              img(src='@/assets/curso/tema2/img_7.png', class="img-fluid")
+          .tarjeta-img-titulo__contenido
+            h5.tarjeta-img-titulo__titulo.mb-3 Población objetivo
+            p.mb-0 Corresponde al grupo de personas, familias, organizaciones o comunidades hacia las cuales se dirigen las acciones, programas o proyectos. Su identificación permite focalizar los esfuerzos y recursos en quienes presentan necesidades específicas o pueden beneficiarse directamente de las intervenciones propuestas.
+
+      .col-12.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-up" data-aos-delay="300")
+        .tarjeta-img-titulo
+          .tarjeta-img-titulo__imagen
+            figure.mb-0
+              img(src='@/assets/curso/tema2/img_8.png', class="img-fluid")
+          .tarjeta-img-titulo__contenido
+            h5.tarjeta-img-titulo__titulo.mb-3 Caracterización del entorno
+            p.mb-0 Proceso mediante el cual se recopila y analiza información sobre las condiciones sociales, económicas, productivas, culturales, institucionales y ambientales de un territorio. Este análisis permite comprender el contexto donde se desarrollarán los proyectos y facilita la identificación de oportunidades.
 
     .row.justify-content-center.align-items-center.mb-0
       .col-12.col-lg-10.mb-0(data-aos="flip-left") 
@@ -104,11 +160,25 @@
       h5 Figura 2.
       |    Factores internos y externos
     figure(data-aos="flip-left").mb-5
-      img(src='@/assets/curso/tema1/img_2.svg', class="img-fluid d-none d-lg-block").mb-3
-      img(src='@/assets/curso/tema1/img_2.svg', class="img-fluid d-block d-lg-none").mb-3
+      img(src='@/assets/curso/tema2/img_13.svg', class="img-fluid d-none d-lg-block").mb-3
+      img(src='@/assets/curso/tema2/img_13.svg', class="img-fluid d-block d-lg-none").mb-3
       figcaption Nota. SENA, 2026
 
-    ///falta componente 
+    .row.justify-content-center.align-items-start.mb-0
+      .col-12.col-lg-6.mb-3.mb-lg-0
+        .bloque-texto-icono.mb-5(data-aos="fade-up")
+          .bloque-texto-icono__icono
+            figure.mb-0
+              img(src='@/assets/curso/tema2/img_11.svg', class="img-fluid")
+          .bloque-texto-icono__contenido
+            p.mb-0 El análisis interno permite identificar aspectos positivos que fortalecen la organización y limitaciones que pueden dificultar el cumplimiento de objetivos. Asimismo, facilita la formulación de acciones orientadas al mejoramiento organizacional.
+      .col-12.col-lg-6.mb-3.mb-lg-0
+        .bloque-texto-icono.mb-5(data-aos="fade-up")
+          .bloque-texto-icono__icono
+            figure.mb-0
+              img(src='@/assets/curso/tema2/img_12.svg', class="img-fluid")
+          .bloque-texto-icono__contenido
+            p.mb-0 El análisis externo permite reconocer oportunidades para fortalecer los procesos organizacionales y amenazas que pueden afectar el desarrollo de las actividades comunitarias y productivas.
 
     p.mb-0(data-aos="zoom-in-right") Una de las herramientas más utilizadas para el análisis organizacional es la matriz DOFA, la cual permite identificar debilidades, oportunidades, fortalezas y amenazas como base para la formulación de estrategias de fortalecimiento organizacional.
 
@@ -118,7 +188,21 @@
       .h2(data-aos="fade-right") 2.4 Identificación, priorización y solución de problemáticas organizacionales
     .mb-0 
 
-    ///falta componente 
+    .bg_img_1.mb-0
+
+      .row.justify-content-center.align-items-center.mb-4
+        .col-12.col-lg-8.mb-3.mb-lg-0.order-2.order-lg-1
+          p.mb-4(data-aos="zoom-in-right") La identificación, priorización y solución de problemáticas organizacionales permiten reconocer las situaciones que afectan el funcionamiento y desarrollo de una organización o comunidad, facilitando la definición de acciones orientadas al mejoramiento de los procesos internos y territoriales. A través de metodologías participativas y herramientas de análisis, es posible establecer las necesidades más relevantes, organizar alternativas de intervención y promover soluciones construidas de manera colectiva.
+          ul.list-unstyled.mb-0
+            li.d-flex.align-items-baseline.mb-0
+              i.fa-solid.fa-circle.me-3.flex-shrink-0(style="color:#FF8E6B; font-size: 8px; line-height: 1.5;").mb-0
+              span La identificación de problemáticas organizacionales consiste en reconocer situaciones que afectan el funcionamiento, la participación, la gestión o el desarrollo de una organización o comunidad. Estas problemáticas pueden estar relacionadas con aspectos administrativos, productivos, sociales, económicos o ambientales. Esta se realiza mediante procesos participativos que permiten recopilar información, analizar situaciones y comprender las causas y consecuencias de las dificultades presentes en la organización o territorio.
+            li.d-flex.align-items-baseline.mb-0
+              i.fa-solid.fa-circle.me-3.flex-shrink-0(style="color:#FF8E6B; font-size: 8px; line-height: 1.5;").mb-0
+              span La priorización permite establecer cuáles problemáticas requieren atención inmediata según criterios como impacto, urgencia, viabilidad y capacidad de intervención. Este proceso facilita orientar los esfuerzos y recursos hacia las necesidades más relevantes para la comunidad.
+        .col-6.col-lg-4.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="flip-left")
+          figure
+            img(src='@/assets/curso/tema2/img_14.png', class="img-fluid")
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-lg-10.mb-0(data-aos="flip-left") 
