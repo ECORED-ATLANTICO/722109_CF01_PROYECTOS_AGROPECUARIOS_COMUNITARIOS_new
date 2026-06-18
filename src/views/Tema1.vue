@@ -75,7 +75,7 @@
       .bloque-texto-icono__contenido
         p.mb-0 En este sentido, resulta importante conocer las principales formas de organización presentes en el sector rural, su funcionamiento y los aportes que generan al desarrollo social, económico y territorial.
 
-    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
       .row.justify-content-center.align-items-center(titulo="Organización comunitaria")
         .col-12.col-lg-9.mb-3.mb-lg-0.order-2.order-lg-1
           p.mb-0 Corresponde a los procesos mediante los cuales las personas y comunidades se articulan para trabajar de manera conjunta en la solución de necesidades comunes y en el desarrollo de iniciativas sociales, productivas y territoriales. En el contexto rural, las organizaciones comunitarias permiten fortalecer la participación, y mejorar la capacidad de gestión de las comunidades.
@@ -118,7 +118,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-9.mb-3.mb-lg-0.order-2.order-lg-1(data-aos="flip-left")
-        TabsB.color-primario
+        TabsB.color-acento-contenido
           .py-4.py-md-5(titulo="Participación comunitaria" :icono="require('@/assets/curso/tema1/img_11.svg')")
              p.mb-0 La participación comunitaria es un proceso mediante el cual personas y organizaciones intervienen en la identificación de necesidades, la toma de decisiones y la construcción de soluciones colectivas. En los territorios rurales, fortalece la integración comunitaria, promueve la corresponsabilidad, impulsa el desarrollo territorial y favorece respuestas acordes con las necesidades de la comunidad.
           .py-4.py-md-5(titulo="Fortalecimiento organizacional" :icono="require('@/assets/curso/tema1/img_12.svg')")
@@ -149,7 +149,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-9.mb-3.mb-lg-0.order-2.order-lg-1(data-aos="flip-left")
-        TabsB.color-primario
+        TabsB.color-acento-contenido
           .py-4.py-md-5(titulo="La jerarquía normativa" :icono="require('@/assets/curso/tema1/img_15.svg')")
              p.mb-0 Establece el orden de aplicación de las normas jurídicas en Colombia. La Constitución Política es la norma superior, seguida por las leyes, los decretos y las resoluciones, que regulan aspectos específicos y orientan la organización, gestión y funcionamiento de sectores como el agropecuario y rural.
           .py-4.py-md-5(titulo="Marco legal del sector agropecuario" :icono="require('@/assets/curso/tema1/img_16.svg')")

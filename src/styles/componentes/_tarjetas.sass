@@ -14,6 +14,23 @@
   &--blanca
     background-color: $white
 
+  &--white
+    background-color: $white
+    border-radius: 20px
+    padding: 11rem 2rem 1rem 2rem
+    position: relative
+    display: flex
+    flex-direction: column
+    overflow: hidden 
+    box-shadow: 8px 8px 20px rgba(0,0,0,0.15)
+    *
+      color: textColor($color-sistema-h)
+    &--borde
+      background-color: $color-primario-5
+      color: textColor(lighten($color-sistema-h, 50%))
+      border: solid 4px $color-sistema-h
+      box-shadow: 8px 8px 20px rgba(0,0,0,0.15)
+
   &--fondo-img-1
     //background-image: url(../assets/curso/tema1/img_5.png) !important
     border-radius: 20px
@@ -620,7 +637,85 @@
 
   &--01::before
     position: absolute
-    //content: url('../assets/curso/tema1/img_37.svg')
+    content: url('../assets/curso/tema3/img_5.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--02::before
+    position: absolute
+    content: url('../assets/curso/tema3/img_6.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--03::before
+    position: absolute
+    content: url('../assets/curso/tema3/img_7.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--04::before
+    position: absolute
+    content: url('../assets/curso/tema3/img_8.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--05::before
+    position: absolute
+    content: url('../assets/curso/tema3/img_9.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--06::before
+    position: absolute
+    content: url('../assets/curso/tema3/img_10.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--07::before
+    position: absolute
+    content: url('../assets/curso/tema3/img_11.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--08::before
+    position: absolute
+    content: url('../assets/curso/tema4/img_9.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--09::before
+    position: absolute
+    content: url('../assets/curso/tema4/img_10.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--10::before
+    position: absolute
+    content: url('../assets/curso/tema4/img_11.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--11::before
+    position: absolute
+    content: url('../assets/curso/tema4/img_12.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--12::before
+    position: absolute
+    content: url('../assets/curso/tema4/img_13.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--13::before
+    position: absolute
+    content: url('../assets/curso/tema4/img_14.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--14::before
+    position: absolute
+    content: url('../assets/curso/tema4/img_15.svg')
     top: 60px
     left: 50%
     transform: translateX(-50%)
@@ -827,21 +922,21 @@
   border: solid 2px
   border-radius: 20px
   position: relative
-  margin-left: 30px
-  padding: 1.5rem 1.5rem 1.5rem 3.5rem !important
+  margin-left: 35px
+  padding: 1.5rem 1.5rem 1.5rem 4.5rem !important
   display: flex
   align-items: center
   height: 100%
   &__numero
     border-radius: 60px
-    width: 60px
-    height: 60px
+    width: 40px
+    height: 40px
     display: flex
     align-items: center
     justify-content: center
     position: absolute
     left: 0
-    top: 50%
+    top: 20%
     transform: translate(-50%, -50%)
     .h2
       margin: 0
@@ -856,7 +951,7 @@
     flex-direction: column
     align-items: flex-start
     text-align: left
-    padding: 1.5rem 1.5rem 1.5rem 3rem !important
+    padding: 1.5rem 1.5rem 1.5rem 4rem !important
 
     ul
       width: 100%
@@ -881,7 +976,7 @@
 
       .tarjeta-numerada__numero
         top: 0
-        left: 50%
+        left: 20%
         transform: translate(-50%, -50%)
 
       ul
@@ -902,14 +997,14 @@
       width: 80px
       height: 80px
       background-color: $white
-      border: 3px solid $color-primario
+      border: 3px solid $white
       border-radius: 50%
       display: flex
       align-items: center
       justify-content: center
       position: absolute
       left: 0
-      top: 50%
+      top: 120px
       transform: translate(-50%, -50%)
       box-shadow: 0 4px 10px rgba(0,0,0,0.15)
       div
@@ -935,14 +1030,14 @@
       width: 80px
       height: 80px
       background-color: $white
-      border: 3px solid $color-secundario
+      border: 3px solid $white
       border-radius: 50%
       display: flex
       align-items: center
       justify-content: center
       position: absolute
       left: 0
-      top: 50%
+      top: 120px
       transform: translate(-50%, -50%)
       box-shadow: 0 4px 10px rgba(0,0,0,0.15)
       div
@@ -962,14 +1057,14 @@
       width: 80px
       height: 80px
       background-color: $white
-      border: 3px solid $color-terciario
+      border: 3px solid $white
       border-radius: 50%
       display: flex
       align-items: center
       justify-content: center
       position: absolute
       left: 0
-      top: 50%
+      top: 120px
       transform: translate(-50%, -50%)
       box-shadow: 0 4px 10px rgba(0,0,0,0.15)
       div
@@ -1002,7 +1097,7 @@
       justify-content: center
       position: absolute
       left: 0
-      top: 50%
+      top: 120px
       transform: translate(-50%, -50%)
       @media (max-width: $bp-max-lg)
         transform: translate(-50%, -50%)
@@ -1026,14 +1121,14 @@
       width: 80px
       height: 80px
       background-color: $white
-      border: 3px solid $color-acento-contenido
+      border: 3px solid $white
       border-radius: 50%
       display: flex
       align-items: center
       justify-content: center
       position: absolute
       left: 0
-      top: 50%
+      top: 120px
       transform: translate(-50%, -50%)
       box-shadow: 0 4px 10px rgba(0,0,0,0.15)
       div

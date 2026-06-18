@@ -259,11 +259,51 @@
       .col-12.col-lg-9.mb-3.mb-lg-0
         .tarjeta.color-secundario-10.p-4.rounded-4.mb-3.h-100.d-flex.align-items-center(data-aos="zoom-in-right")
           p.mb-0 La adecuada prestación del servicio público de extensión agropecuaria requiere contar con información organizada, actualizada y confiable sobre los productores, asociaciones y demás actores vinculados al sector rural. Para ello, es necesario desarrollar procesos que permitan identificar las características de los usuarios, registrar de manera sistemática su información y garantizar su manejo responsable. Estos procedimientos facilitan la planeación, el seguimiento y la focalización de las acciones de asistencia técnica y acompañamiento. 
-        p.mb-4(data-aos="zoom-in-right") En este contexto, resulta importante comprender la clasificación de usuarios, el registro de usuarios y el manejo adecuado de la información como elementos fundamentales para fortalecer la gestión y la prestación de los servicios dirigidos al sector agropecuario:
+        p.mb-0(data-aos="zoom-in-right") En este contexto, resulta importante comprender la clasificación de usuarios, el registro de usuarios y el manejo adecuado de la información como elementos fundamentales para fortalecer la gestión y la prestación de los servicios dirigidos al sector agropecuario:
 
-    ///falta componente 
+    .row.justify-content-center.align-items-center.mb-5 
+      .col-12.col-lg-8.order-2.order-lg-1
+        .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
+          SlyderF(columnas="col-12 col-sm-6 col-md-12 col-lg-6").p-2.rounded-3
+            .tarjeta-img-titulo
+              .tarjeta-img-titulo__imagen
+                figure.mb-0
+                  img(src='@/assets/curso/tema2/img_16.png', class="img-fluid")
+              .tarjeta-img-titulo__contenido
+                h5.tarjeta-img-titulo__titulo.mb-3 Clasificación de usuarios
+                p.mb-0 Se realiza teniendo en cuenta características sociales, productivas, económicas y territoriales que permiten definir necesidades y orientar estrategias de atención. La información recopilada contribuye a mejorar la focalización de acciones institucionales y comunitarias.
+            .tarjeta-img-titulo
+              .tarjeta-img-titulo__imagen
+                figure.mb-0
+                  img(src='@/assets/curso/tema2/img_17.png', class="img-fluid")
+              .tarjeta-img-titulo__contenido
+                h5.tarjeta-img-titulo__titulo.mb-3 Registro de usuarios
+                p.mb-0 Constituye una herramienta importante para consolidar bases de datos y facilitar el seguimiento de procesos organizacionales y productivos. Asimismo, permite generar información útil para la formulación de proyectos, gestión de recursos y toma de decisiones.
+            .tarjeta-img-titulo
+              .tarjeta-img-titulo__imagen
+                figure.mb-0
+                  img(src='@/assets/curso/tema2/img_18.png', class="img-fluid")
+              .tarjeta-img-titulo__contenido
+                h5.tarjeta-img-titulo__titulo.mb-3 Manejo de la información organizacional
+                p.mb-0 Comprende la recolección, almacenamiento, análisis y actualización de datos mediante herramientas digitales. Su gestión responsable garantiza información confiable y oportuna, fortalece la planeación, el seguimiento y la evaluación, y contribuye a la extensión agropecuaria.
+      .col-8.col-lg-4.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="zoom-out-up")
+        figure
+          img(src='@/assets/curso/tema2/img_19.png', class="img-fluid")
 
-    ///falta componente 
+    .row.justify-content-center.align-items-center.mt-5.mb-5
+      .col-12.col-lg-8
+        .tarjeta.color-primario.p-5.rounded-3.mb-3(data-aos="zoom-in-right")
+          .row.justify-content-center.align-items-center.mb-0
+            .col-6.col-lg-6.mb-lg-0.mb-3
+              figure
+                img(src="@/assets/curso/tema2/img_20.png", class="img-fluid w-100")
+            .col-12.col-lg-6.mb-lg-0
+              h2.mb-5.text-white Pódcast
+              TarjetaAudio.color-acento-botones.mb-0.p-5(
+                texto="<I>Nombre pódcast</I>"
+                :audio="require('@/assets/curso/tema2/img_20.png')"
+                @audio-hover="mostrarIndicadorTarjetaAudio = True")
+                .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 </template>
 
 <script>

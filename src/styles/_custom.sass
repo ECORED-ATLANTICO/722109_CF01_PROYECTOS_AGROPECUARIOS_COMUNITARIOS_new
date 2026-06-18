@@ -322,6 +322,9 @@ figcaption
 .bg-table-01
   background-color: $color-sistema-h
   color: $color-sistema-texto
+.bg-table-02
+  background-color: $white
+  color: $color-sistema-texto
 
 // Bloque de texto con ícono circular flotante arriba-centro
 .bloque-texto-icono
@@ -468,7 +471,7 @@ figcaption
     line-height: 1.6
     color: $color-sistema-texto
     margin: 0
-    text-align: center
+    text-align: left
 
   // Tablet (992-1199px)
   @media (max-width: $bp-max-md)
@@ -512,7 +515,6 @@ figcaption
     p
       font-size: 0.85rem
 
-
 // Fondos 
 .bg_img
   &_1
@@ -537,3 +539,135 @@ figcaption
     > *
       position: relative
       z-index: 2
+  &_2
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    padding: 2rem 0rem
+    z-index: 1
+    &::before
+      content: ''
+      position: absolute
+      top: -47px
+      bottom: -47px
+      left: -55px
+      right: -55px
+      background-image: url('../assets/curso/tema2/img_13.svg')
+      background-repeat: no-repeat
+      background-position: center
+      background-size: 100% 100%
+      z-index: -1
+      pointer-events: none
+    > *
+      position: relative
+      z-index: 2
+  &_3
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    padding: 2rem 0rem
+    z-index: 1
+    &::before
+      content: ''
+      position: absolute
+      top: -70px
+      bottom: -30px
+      left: -55px
+      right: -55px
+      background-image: url('../assets/curso/tema4/img_2.svg')
+      background-repeat: no-repeat
+      background-position: center
+      background-size: 100% 100%
+      z-index: -1
+      pointer-events: none
+    > *
+      position: relative
+      z-index: 2
+
+// acordion
+.acordion__activo
+  background-color: $color-primario-10
+  background-repeat: no-repeat
+  background-size: cover 
+  background-position: center
+  overflow: hidden 
+.acordion__accion__btn--b
+  background-color: $white
+  color: $color-sistema-texto
+
+// factores-slider custom-slider
+.factores-slider, .custom-slider
+  &__icon 
+    max-height: 93px
+  .slyder-f
+    align-items: center
+    justify-content: center
+    gap: 0
+  .slyder-f__btn
+    background-color: $color-acento-botones
+    height: 42px
+    width: 42px
+    min-width: 42px
+    border-radius: 50%
+    padding: 0 !important
+    transition: transform 0.3s
+    z-index: 100
+    
+    &:hover
+      transform: scale(1.1)
+    .fa-chevron-left, .fa-chevron-right
+      font-size: 1.5rem
+    &.ps-3
+      margin-left: 7px
+      @media (max-width: 1024px)
+        margin-left: 7px
+    &.pe-3
+      margin-right: 7px
+      @media (max-width: 1024px)
+        margin-right: 7px
+.tarjeta-numerada--vertical
+  .custom-slider
+    width: 100%
+    max-width: 100%
+    overflow: hidden !important
+    contain: layout
+    
+    .slyder-f__main
+      width: 0 !important
+      flex: 1 1 0 !important
+      min-width: 0 !important
+      overflow: hidden !important
+      
+    .slick-list
+      overflow: hidden !important
+      max-width: 100% !important
+      
+    .slick-track
+      max-width: none
+    
+    .slick-slide
+      height: auto
+      
+  .slyder-f
+    position: relative
+    
+    &__btn
+      position: absolute !important
+      top: 50%
+      z-index: 10
+      
+      &.pe-3  // ← botón anterior (izquierda)
+        left: 0
+        margin-right: 0 !important
+        
+      &.ps-3  // ← botón siguiente (derecha)
+        right: 0px !important
+        margin-left: 0 !important
+        
+    &__main
+      width: 100% !important
+      padding: 0 60px
+///pasos-b__header__btn
+.pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: $color-acento-botones
+  border: 2px solid $color-acento-botones
