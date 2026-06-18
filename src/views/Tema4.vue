@@ -223,7 +223,7 @@
       .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
         h5 Tabla 7.
         |  Estrategias organizacionales en la formulación
-      .tabla-a.mb-0(data-aos="flip-left")
+      .tabla-a.mb-4(data-aos="flip-left")
         table
           caption 
             p.mb-0 Nota. SENA, (2026).
@@ -261,23 +261,213 @@
       .h2(data-aos="fade-right") 4.4 Construcción y formulación del plan de acción
     .mb-0 
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-7.mb-3.mb-lg-0.order-2.order-lg-1
+        .tarjeta.color-secundario-10.p-4.rounded-4.mb-3.h-100.d-flex.align-items-center(data-aos="zoom-in-right")
+          p.mb-0 El plan de acción es una herramienta de gestión que permite organizar las actividades necesarias para alcanzar los objetivos planteados por una organización o comunidad. Su formulación facilita la definición de metas, responsables, recursos, tiempos e indicadores de seguimiento.
+        p.mb-0(data-aos="zoom-in-right") La construcción del plan de acción debe desarrollarse de manera participativa, garantizando la intervención de los diferentes actores involucrados en el proceso organizacional. Esto permite que las acciones propuestas respondan a las necesidades reales del entorno y favorezcan el compromiso colectivo con su implementación.
+      .col-12.col-lg-5.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="flip-left")
+        figure
+          img(src='@/assets/curso/tema4/img_16.png', class="img-fluid")
 
+    p.mb-4(data-aos="zoom-in-right") La formulación del plan de acción inicia con la identificación de necesidades y prioridades organizacionales, seguida de la definición de objetivos y estrategias. Posteriormente, se establecen actividades específicas, responsables, recursos necesarios y tiempos de ejecución. Un plan de acción bien estructurado facilita la coordinación de esfuerzos, mejora la organización de las actividades y contribuye al cumplimiento de metas institucionales y comunitarias.
 
+    .row.justify-content-center.align-items-center.mb-4
+      .col-12.col-lg-10.mb-0(data-aos="flip-left") 
+        .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
+          h5 Tabla 9.
+          |  Elementos del plan de acción
+        .tabla-a.mb-0(data-aos="flip-left")
+          table
+            caption 
+              p.mb-0 Nota. SENA, (2026)
+            thead
+              tr
+                th.col-auto.col-lg-4 Elemento
+                th.col-auto.col-lg-auto Descripción
+            tbody
+              tr
+                td.text-start Objetivos
+                td.text-start Resultados que se desean alcanzar.
+              tr.bg-table-01
+                td.text-start Metas
+                td.text-start Logros específicos y medibles.
+              tr
+                td.text-start Actividades
+                td.text-start Acciones necesarias para cumplir los objetivos.
+              tr.bg-table-01
+                td.text-start Responsables
+                td.text-start Personas o grupos encargados de ejecutar actividades.
+              tr
+                td.text-start Recursos
+                td.text-start Elementos humanos, técnicos y financieros requeridos.
+              tr.bg-table-01
+                td.text-start Cronograma
+                td.text-start Distribución de actividades en el tiempo.
+              tr
+                td.text-start Indicadores de seguimiento
+                td.text-start Herramientas para medir avances y resultados.
+              tr.bg-table-01
+                td.text-start Resultados esperados
+                td.text-start Cambios o logros previstos con la ejecución del plan.
 
+    .cajon.color-acento-contenido.p-4.mb-5(data-aos="zoom-in-right")
+      p.mb-0 La elaboración de un plan de acción requiere seguir una serie de etapas que permiten organizar de manera lógica y sistemática el proceso de planificación. Cada una de estas etapas aporta elementos fundamentales para la definición de objetivos, la priorización de actividades, la asignación de recursos y el seguimiento de los resultados esperados. Su desarrollo facilita la toma de decisiones, fortalece la participación de los actores involucrados y contribuye al logro de las metas establecidas. A continuación, se presentan las principales etapas para la formulación de un plan de acción, así como su importancia dentro del proceso de planeación organizacional.
 
+    .row.justify-content-center.align-items-center.mb-4
+      .col-12.col-lg-10.mb-0(data-aos="flip-left") 
+        .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
+          h5 Tabla 10.
+          |  Etapas para la formulación del plan de acción
+        .tabla-a.mb-0(data-aos="flip-left")
+          table
+            caption 
+              p.mb-0 Nota. SENA, (2026)
+            thead
+              tr
+                th.col-auto.col-lg-4 Etapa
+                th.col-auto.col-lg-auto Descripción
+            tbody
+              tr
+                td.text-start Identificación de necesidades y problemáticas
+                td.text-start Reconocimiento de situaciones que requieren intervención
+              tr.bg-table-01
+                td.text-start Priorización de acciones
+                td.text-start Definición de actividades según importancia y viabilidad
+              tr
+                td.text-start Definición de objetivos y metas
+                td.text-start Establecimiento de resultados esperados
+              tr.bg-table-01
+                td.text-start Formulación de actividades
+                td.text-start Organización de acciones concretas
+              tr
+                td.text-start Asignación de responsables y recursos
+                td.text-start Distribución de funciones y recursos disponibles.
+              tr.bg-table-01
+                td.text-start Elaboración del cronograma
+                td.text-start Organización de actividades según tiempos de ejecución
+              tr
+                td.text-start Definición de indicadores de seguimiento
+                td.text-start Establecimiento de mecanismos de evaluación y control
 
+    p.mb-0(data-aos="zoom-in-right") La formulación adecuada del plan de acción fortalece la organización institucional y facilita la ejecución ordenada de procesos comunitarios y territoriales.
 
-
-
-
-
-    
     Separador
 
     #t_4_5.titulo-segundo.color-acento-contenido
-      .h2(data-aos="fade-right") 4.5 
+      .h2(data-aos="fade-right") 4.5 Implementación, seguimiento y evaluación del plan de acción
     .mb-0 
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-8.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
+        figure
+          img(src='@/assets/curso/tema4/img_17.png', class="img-fluid")
+      .col-12.col-lg-8.mb-3.mb-lg-0
+        p.mb-4(data-aos="zoom-in-right") La implementación del plan de acción corresponde a la ejecución de las actividades programadas para alcanzar los objetivos organizacionales y comunitarios. Durante esta etapa se ponen en marcha las estrategias, se asignan responsabilidades y se utilizan los recursos definidos en la fase de planeación. La implementación requiere coordinación, participación de los actores involucrados y seguimiento permanente para garantizar el cumplimiento de las actividades programadas.
+        .tarjeta.color-secundario-10.p-4.rounded-4.mb-0.h-100.d-flex.align-items-center(data-aos="zoom-in-right")
+          p.mb-0 Para que el seguimiento sea efectivo, es necesario considerar diversos aspectos que permitan recopilar información confiable, evaluar los avances alcanzados y orientar la toma de decisiones. Estos elementos facilitan el control de las actividades, el análisis de los resultados y la identificación de oportunidades de mejora dentro de la organización. Asimismo, contribuyen a fortalecer la transparencia, la participación y la gestión de los procesos organizacionales. A continuación, se presentan los aspectos fundamentales del seguimiento y su importancia dentro de los procesos de planeación, ejecución y evaluación de las acciones organizacionales. Por su parte, la evaluación consiste en analizar los resultados obtenidos, comparándolos con los objetivos y metas planteadas inicialmente. A través de la evaluación es posible determinar la efectividad de las acciones desarrolladas y establecer recomendaciones para fortalecer futuros procesos organizacionales.
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-12.col-lg-10.mb-0(data-aos="flip-left") 
+        .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
+          h5 Tabla 11.
+          |  Aspectos fundamentales del seguimiento
+        .tabla-a.mb-0(data-aos="flip-left")
+          table
+            caption 
+              p.mb-0 Nota. SENA, (2026).
+            thead
+              tr
+                th.col-auto.col-lg-4 Aspecto
+                th.col-auto.col-lg-auto Finalidad
+            tbody
+              tr
+                td.text-start Verificación de actividades ejecutadas
+                td.text-start Confirmar el cumplimiento de las acciones programadas.
+              tr.bg-table-01
+                td.text-start Cumplimiento de cronogramas
+                td.text-start Revisar tiempos y avances de ejecución.
+              tr
+                td.text-start Uso adecuado de recursos
+                td.text-start Controlar la utilización eficiente de recursos humanos y financieros.
+              tr.bg-table-01
+                td.text-start Participación de los actores involucrados
+                td.text-start Evaluar el nivel de integración comunitaria.
+              tr
+                td.text-start Registro y análisis de información
+                td.text-start Facilitar la toma de decisiones y el seguimiento organizacional.
+
+    p.mb-4(data-aos="zoom-in-right") El seguimiento y la evaluación requieren el uso de herramientas que permitan registrar información, verificar el cumplimiento de las actividades y analizar los resultados alcanzados. Cada herramienta cumple una función específica dentro del proceso de gestión organizacional, aportando información útil para la toma de decisiones y el mejoramiento de las acciones implementadas. Su adecuada utilización facilita el control de los procesos, fortalece la participación de los actores involucrados y contribuye al logro de los objetivos organizacionales. A continuación, se presentan algunas de las principales herramientas utilizadas en los procesos de seguimiento y evaluación, así como su propósito dentro de la gestión organizacional y comunitaria.
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-12.col-lg-10.mb-0(data-aos="flip-left") 
+        .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
+          h5 Tabla 12.
+          |  Herramientas para el seguimiento y evaluación
+        .tabla-a.mb-0(data-aos="flip-left")
+          table
+            caption 
+              p.mb-0 Nota. SENA, (2026).
+            thead
+              tr
+                th.col-auto.col-lg-4 Herramienta
+                th.col-auto.col-lg-auto Aplicación
+            tbody
+              tr
+                td.text-start Informes de avance
+                td.text-start Registrar resultados y avances de actividades.
+              tr.bg-table-01
+                td.text-start Listas de verificación
+                td.text-start Comprobar cumplimiento de tareas y procesos.
+              tr
+                td.text-start Indicadores de gestión
+                td.text-start Medir desempeño y cumplimiento de metas.
+              tr.bg-table-01
+                td.text-start Encuestas y entrevistas
+                td.text-start Obtener información sobre resultados y percepción comunitaria.
+              tr
+                td.text-start Registros de participación
+                td.text-start Controlar asistencia y participación en actividades.
+              tr.bg-table-01
+                td.text-start Matrices de seguimiento
+                td.text-start Organizar información para el control y evaluación de procesos.
+
+    .row.justify-content-center.mb-5(data-aos="zoom-in-right")
+      .col-12.col-lg-10
+        .row.g-0.align-items-center
+          .col-2.col-lg-1.bloque-enlace__icono-col
+          .col-10.col-lg-11
+            .bloque-enlace
+              .bloque-enlace__contenido
+                p.mb-0 La implementación, el seguimiento y la evaluación son procesos complementarios que permiten fortalecer la gestión organizacional y mejorar el impacto de las acciones desarrolladas en las comunidades rurales.
+              .bloque-enlace__accion
+
+    .row.justify-content-center.align-items-center.mb-0
+      .col-12.col-lg-10.mb-0(data-aos="flip-left") 
+        .cajon.color-acento-botones.p-4(data-aos="zoom-in-right")
+          p.mb-3 #[strong NOTA:] algunos temas relacionados con planeación organizacional y gestión participativa es común que algunos instrumentos aparezcan tanto en temas de diagnóstico y análisis organizacional como en procesos de planeación y seguimiento. Lo importante es abordarlos desde enfoques diferentes para evitar repeticiones, por ejemplo: 
+          ul.list-unstyled.mb-0
+            li.d-flex.align-items-baseline.mb-3(data-aos="zoom-in-right")
+              i.fa-solid.fa-circle.me-3.flex-shrink-0(style="color:#FF8E6B; font-size: 8px; line-height: 1.5;").mb-0
+              span En el análisis organizacional: se usan para identificar y comprender la situación de la organización. 
+            li.d-flex.align-items-baseline.mb-3(data-aos="zoom-in-right")
+              i.fa-solid.fa-circle.me-3.flex-shrink-0(style="color:#FF8E6B; font-size: 8px; line-height: 1.5;").mb-0
+              span En la planeación: se utilizan para formular acciones, estrategias y procesos de seguimiento. 
+
+    .row.justify-content-center.align-items-center.mt-5.mb-5
+      .col-12.col-lg-8
+        .tarjeta.color-primario.p-5.rounded-3.mb-3(data-aos="zoom-in-right")
+          .row.justify-content-center.align-items-center.mb-0
+            .col-6.col-lg-6.mb-lg-0.mb-3
+              figure
+                img(src="@/assets/curso/tema2/img_20.png", class="img-fluid w-100")
+            .col-12.col-lg-6.mb-lg-0
+              h2.mb-5.text-white Pódcast
+              TarjetaAudio.color-acento-botones.mb-0.p-5(
+                texto="<I>Nombre pódcast</I>"
+                :audio="require('@/assets/curso/tema2/img_20.png')"
+                @audio-hover="mostrarIndicadorTarjetaAudio = True")
+                .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 </template>
 
 <script>

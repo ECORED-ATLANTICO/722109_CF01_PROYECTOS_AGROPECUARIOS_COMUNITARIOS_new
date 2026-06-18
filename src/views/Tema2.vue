@@ -160,8 +160,8 @@
       h5 Figura 2.
       |    Factores internos y externos
     figure(data-aos="flip-left").mb-5
-      img(src='@/assets/curso/tema2/img_13.svg', class="img-fluid d-none d-lg-block").mb-3
-      img(src='@/assets/curso/tema2/img_13.svg', class="img-fluid d-block d-lg-none").mb-3
+      img(src='@/assets/curso/tema2/img_9.svg', class="img-fluid d-none d-lg-block").mb-3
+      img(src='@/assets/curso/tema2/img_10.svg', class="img-fluid d-block d-lg-none").mb-3
       figcaption Nota. SENA, 2026
 
     .row.justify-content-center.align-items-start.mb-0

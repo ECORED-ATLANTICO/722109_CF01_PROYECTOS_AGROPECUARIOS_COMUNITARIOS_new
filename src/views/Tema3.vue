@@ -341,16 +341,16 @@
       h5 Figura 3.
       |    Características del trabajo en equipo en organizaciones rurales y comunitarias
     figure(data-aos="flip-left").mb-5
-      img(src='@/assets/curso/tema2/img_13.svg', class="img-fluid d-none d-lg-block").mb-4
-      img(src='@/assets/curso/tema2/img_13.svg', class="img-fluid d-block d-lg-none").mb-4
+      img(src='@/assets/curso/tema3/img_13.svg', class="img-fluid d-none d-lg-block").mb-4
+      img(src='@/assets/curso/tema3/img_14.svg', class="img-fluid d-block d-lg-none").mb-4
       figcaption Nota. SENA, (2026).
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Figura 4.
       |    Definición de roles y responsabilidades
     figure(data-aos="flip-left").mb-5
-      img(src='@/assets/curso/tema2/img_13.svg', class="img-fluid d-none d-lg-block").mb-4
-      img(src='@/assets/curso/tema2/img_13.svg', class="img-fluid d-block d-lg-none").mb-4
+      img(src='@/assets/curso/tema3/img_15.svg', class="img-fluid d-none d-lg-block").mb-4
+      img(src='@/assets/curso/tema3/img_16.svg', class="img-fluid d-block d-lg-none").mb-4
       figcaption Nota. SENA, (2026).
 
     br

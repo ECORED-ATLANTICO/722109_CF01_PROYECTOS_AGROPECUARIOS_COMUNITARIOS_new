@@ -173,14 +173,14 @@
       h5 Figura 1.
       |    Estructura del Sistema Nacional de Innovación Agropecuaria
     figure(data-aos="flip-left").mb-5
-      img(src='@/assets/curso/tema2/img_13.svg', class="img-fluid d-none d-lg-block").mb-3
-      img(src='@/assets/curso/tema2/img_13.svg', class="img-fluid d-block d-lg-none").mb-3
+      img(src='@/assets/curso/tema1/img_18.svg', class="img-fluid d-none d-lg-block").mb-3
+      img(src='@/assets/curso/tema1/img_19.svg', class="img-fluid d-block d-lg-none").mb-3
       figcaption Nota. SENA, 2026
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
         figure
-          img(src='@/assets/curso/tema1/img_21.png', class="img-fluid")
+          img(src='@/assets/curso/tema1/img_20.png', class="img-fluid")
       .col-12.col-lg-8.mb-3.mb-lg-0
         .tarjeta.color-secundario-10.p-4.rounded-4.mb-3.h-100.d-flex.align-items-center(data-aos="zoom-in-right")
           p.mb-0 El Plan Departamental de Extensión Agropecuaria (PDEA) es un instrumento de planificación que orienta la prestación del Servicio Público de Extensión Agropecuaria según las necesidades del territorio. Su formulación se realiza de manera participativa e involucra a productores, organizaciones e instituciones, con el apoyo de los Consejos Municipales de Desarrollo Rural (CMDR).
