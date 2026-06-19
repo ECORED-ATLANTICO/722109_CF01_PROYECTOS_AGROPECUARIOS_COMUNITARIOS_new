@@ -543,7 +543,7 @@ figcaption
     position: relative
     h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
       position: relative
-    padding: 2rem 0rem
+    padding: 2rem 0rem 
     z-index: 1
     &::before
       content: ''
@@ -625,7 +625,14 @@ figcaption
       margin-right: 7px
       @media (max-width: 1024px)
         margin-right: 7px
+
 .tarjeta-numerada--vertical
+  display: flex
+  flex-direction: column
+  align-items: stretch
+  width: 100%
+  overflow: hidden
+
   .custom-slider
     width: 100%
     max-width: 100%
@@ -667,6 +674,7 @@ figcaption
     &__main
       width: 100% !important
       padding: 0 60px
+
 ///pasos-b__header__btn
 .pasos-b__header__btn--left, .pasos-b__header__btn--right
   background-color: $color-acento-botones

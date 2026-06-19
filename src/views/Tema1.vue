@@ -30,7 +30,7 @@
               .bloque-enlace__accion
                 a.boton-enlace(href="https://www.youtube.com/watch?v=CZJ2Civ0BdA" target="_blank" rel="noopener noreferrer")
                   span.boton-enlace__texto Enlace
-                  i.fas.fa-file-download.boton-enlace__icono
+                  i.fab.fa-youtube.boton-enlace__icono
 
     .cajon.color-acento-contenido.p-4.mb-4(data-aos="zoom-in-right")
       p.mb-0 Asimismo, el desarrollo rural en Colombia se encuentra respaldado por un marco normativo e institucional que regula las acciones relacionadas con la extensión agropecuaria, la innovación, la asistencia técnica y el fortalecimiento organizacional. Normas como la Ley 1876 de 2017 y la creación del Sistema Nacional de Innovación Agropecuaria (SNIA) buscan mejorar la articulación entre actores, instituciones y comunidades rurales, promoviendo procesos de desarrollo más participativos, sostenibles e incluyentes.
@@ -120,10 +120,10 @@
       .col-12.col-lg-9.mb-3.mb-lg-0.order-2.order-lg-1(data-aos="flip-left")
         TabsB.color-acento-contenido
           .py-4.py-md-5(titulo="Participación comunitaria" :icono="require('@/assets/curso/tema1/img_11.svg')")
-             p.mb-0 La participación comunitaria es un proceso mediante el cual personas y organizaciones intervienen en la identificación de necesidades, la toma de decisiones y la construcción de soluciones colectivas. En los territorios rurales, fortalece la integración comunitaria, promueve la corresponsabilidad, impulsa el desarrollo territorial y favorece respuestas acordes con las necesidades de la comunidad.
+             p.mb-0.p-4 La participación comunitaria es un proceso mediante el cual personas y organizaciones intervienen en la identificación de necesidades, la toma de decisiones y la construcción de soluciones colectivas. En los territorios rurales, fortalece la integración comunitaria, promueve la corresponsabilidad, impulsa el desarrollo territorial y favorece respuestas acordes con las necesidades de la comunidad.
           .py-4.py-md-5(titulo="Fortalecimiento organizacional" :icono="require('@/assets/curso/tema1/img_12.svg')")
-             p.mb-0 El fortalecimiento organizacional desarrolla capacidades administrativas, técnicas, operativas y sociales para mejorar la gestión, la planeación y la respuesta frente al entorno. Este proceso fortalece el liderazgo, la comunicación, el trabajo en equipo, la articulación institucional, la sostenibilidad comunitaria y la gobernanza, mediante roles claros y una gestión eficiente de recursos.
-      .col-6.col-lg-3.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="flip-left")
+             p.mb-0.p-4 El fortalecimiento organizacional desarrolla capacidades administrativas, técnicas, operativas y sociales para mejorar la gestión, la planeación y la respuesta frente al entorno. Este proceso fortalece el liderazgo, la comunicación, el trabajo en equipo, la articulación institucional, la sostenibilidad comunitaria y la gobernanza, mediante roles claros y una gestión eficiente de recursos.
+      .col-8.col-lg-3.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="flip-left")
         figure
           img(src='@/assets/curso/tema1/img_13.png', class="img-fluid")
 
@@ -151,10 +151,10 @@
       .col-12.col-lg-9.mb-3.mb-lg-0.order-2.order-lg-1(data-aos="flip-left")
         TabsB.color-acento-contenido
           .py-4.py-md-5(titulo="La jerarquía normativa" :icono="require('@/assets/curso/tema1/img_15.svg')")
-             p.mb-0 Establece el orden de aplicación de las normas jurídicas en Colombia. La Constitución Política es la norma superior, seguida por las leyes, los decretos y las resoluciones, que regulan aspectos específicos y orientan la organización, gestión y funcionamiento de sectores como el agropecuario y rural.
+             p.mb-0.p-4 Establece el orden de aplicación de las normas jurídicas en Colombia. La Constitución Política es la norma superior, seguida por las leyes, los decretos y las resoluciones, que regulan aspectos específicos y orientan la organización, gestión y funcionamiento de sectores como el agropecuario y rural.
           .py-4.py-md-5(titulo="Marco legal del sector agropecuario" :icono="require('@/assets/curso/tema1/img_16.svg')")
-             p.mb-0 Comprende las normas que regulan la producción, la asistencia técnica, la comercialización, la extensión agropecuaria y las organizaciones rurales. Estas disposiciones promueven el desarrollo rural sostenible, la seguridad alimentaria y el fortalecimiento de los productores, facilitando la planificación y gestión de programas del sector.
-      .col-6.col-lg-3.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="flip-left")
+             p.mb-0.p-4 Comprende las normas que regulan la producción, la asistencia técnica, la comercialización, la extensión agropecuaria y las organizaciones rurales. Estas disposiciones promueven el desarrollo rural sostenible, la seguridad alimentaria y el fortalecimiento de los productores, facilitando la planificación y gestión de programas del sector.
+      .col-8.col-lg-3.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="flip-left")
         figure
           img(src='@/assets/curso/tema1/img_17.png', class="img-fluid")
 
@@ -173,8 +173,8 @@
       h5 Figura 1.
       |    Estructura del Sistema Nacional de Innovación Agropecuaria
     figure(data-aos="flip-left").mb-5
-      img(src='@/assets/curso/tema1/img_18.svg', class="img-fluid d-none d-lg-block").mb-3
-      img(src='@/assets/curso/tema1/img_19.svg', class="img-fluid d-block d-lg-none").mb-3
+      img(src='@/assets/curso/tema1/img_18.svg', class="img-fluid d-none d-lg-block", alt="La figura presenta qué es el SNIA, sus objetivos principales, los actores que participan y los beneficios para los productores rurales. Así mismo explica que el SNIA articula actores, políticas e instrumentos para promover la investigación, la innovación, la transferencia de conocimiento y la extensión agropecuaria. En el centro se ubica un círculo con la sigla “SNIA” y el texto “Articulación para innovar y transformar el campo colombiano”, rodeado por flechas que representan la integración de los diferentes componentes del sistema.").mb-3
+      img(src='@/assets/curso/tema1/img_19.svg', class="img-fluid d-block d-lg-none", alt="La figura presenta qué es el SNIA, sus objetivos principales, los actores que participan y los beneficios para los productores rurales. Así mismo explica que el SNIA articula actores, políticas e instrumentos para promover la investigación, la innovación, la transferencia de conocimiento y la extensión agropecuaria. En el centro se ubica un círculo con la sigla “SNIA” y el texto “Articulación para innovar y transformar el campo colombiano”, rodeado por flechas que representan la integración de los diferentes componentes del sistema.").mb-3
       figcaption Nota. SENA, 2026
 
     .row.justify-content-center.align-items-center.mb-4

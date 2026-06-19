@@ -88,7 +88,7 @@
       .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
         figure
           img(src='@/assets/curso/tema3/img_4.png', class="img-fluid")
-      .col-12.col-lg-8.mb-3.mb-lg-0(data-aos="flip-left")
+      .col-12.col-lg-12.col-xl-8.mb-3.mb-lg-0(data-aos="flip-left")
         .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
           SlyderF(columnas="col-12 col-sm-6 col-md-12 col-lg-6").p-2.rounded-3
             .tarjeta--white.h-100
@@ -223,7 +223,7 @@
     .tarjeta-numerada.tarjeta-numerada--vertical.color-secundario-10.h-100.mb-5
       .tarjeta-numerada__numero.d-flex.align-items-center.justify-content-center
         h1.mb-0 B
-      p.mb-4(data-aos="zoom-in-right") Para el desarrollo del análisis organizacional se utilizan diferentes herramientas e instrumentos que facilitan la recopilación y análisis de información. 
+      p.mb-4(data-aos="zoom-in-right") Para el desarrollo del análisis organizacional se utilizan diferentes herramientas e instrumentos que facilitan la recopilación y análisis de información.  
       .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
         h5 Tabla 5.
         |  Herramientas para análisis organizacional
@@ -307,23 +307,23 @@
               th.col-auto.col-lg-auto Aplicación
           tbody
             tr.bg-table-02
-              td Participación de asociados
+              td.text-start Participación de asociados
               td.text-start Número de integrantes que participan en actividades organizacionales.
               td.text-start Evalúa el nivel de participación comunitaria.
             tr.bg-table-01
-              td Cumplimiento de actividades
+              td.text-start Cumplimiento de actividades
               td.text-start Actividades ejecutadas frente a las planificadas.
               td.text-start Permite verificar avances del plan de trabajo.
             tr.bg-table-02
-              td Gestión de recursos
+              td.text-start  Gestión de recursos
               td.text-start Recursos obtenidos y utilizados por la organización.
               td.text-start Analiza la capacidad de gestión institucional.
             tr.bg-table-01
-              td Asistencia a reuniones
+              td.text-start Asistencia a reuniones
               td.text-start Número de participantes en espacios organizativos.
               td.text-start Evalúa compromiso y comunicación interna.
             tr.bg-table-02
-              td Ejecución de proyectos
+              td.text-start Ejecución de proyectos
               td.text-start Proyectos desarrollados por la organización.
               td.text-start Permite medir capacidad organizativa.
 
@@ -341,16 +341,16 @@
       h5 Figura 3.
       |    Características del trabajo en equipo en organizaciones rurales y comunitarias
     figure(data-aos="flip-left").mb-5
-      img(src='@/assets/curso/tema3/img_13.svg', class="img-fluid d-none d-lg-block").mb-4
-      img(src='@/assets/curso/tema3/img_14.svg', class="img-fluid d-block d-lg-none").mb-4
+      img(src='@/assets/curso/tema3/img_13.svg', class="img-fluid d-none d-lg-block", alt="La figura describe el trabajo en equipo en organizaciones rurales y comunitarias.; la cual presenta tres etapas: integrar conocimientos y capacidades, cooperar para construir soluciones compartidas y desarrollar habilidades de comunicación y resolución de conflictos; destacando además diferentes ventajas.").mb-4
+      img(src='@/assets/curso/tema3/img_14.svg', class="img-fluid d-block d-lg-none", alt="La figura describe el trabajo en equipo en organizaciones rurales y comunitarias.; la cual presenta tres etapas: integrar conocimientos y capacidades, cooperar para construir soluciones compartidas y desarrollar habilidades de comunicación y resolución de conflictos; destacando además diferentes ventajas.").mb-4
       figcaption Nota. SENA, (2026).
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Figura 4.
       |    Definición de roles y responsabilidades
     figure(data-aos="flip-left").mb-5
-      img(src='@/assets/curso/tema3/img_15.svg', class="img-fluid d-none d-lg-block").mb-4
-      img(src='@/assets/curso/tema3/img_16.svg', class="img-fluid d-block d-lg-none").mb-4
+      img(src='@/assets/curso/tema3/img_15.svg', class="img-fluid d-none d-lg-block", alt="La figura describe la definición de roles y responsabilidades en organizaciones rurales y comunitarias. Presenta una secuencia de cinco pasos: conocer al equipo, definir roles, identificar tareas y compromisos, coordinar y comunicar actividades, y cumplir los objetivos organizacionales. Asimismo, destaca la importancia de este proceso para evitar confusiones y duplicidad de tareas, fortalecer la confianza y el trabajo conjunto, y promover la eficiencia y el logro de resultados.").mb-4
+      img(src='@/assets/curso/tema3/img_16.svg', class="img-fluid d-block d-lg-none", alt="La figura describe la definición de roles y responsabilidades en organizaciones rurales y comunitarias. Presenta una secuencia de cinco pasos: conocer al equipo, definir roles, identificar tareas y compromisos, coordinar y comunicar actividades, y cumplir los objetivos organizacionales. Asimismo, destaca la importancia de este proceso para evitar confusiones y duplicidad de tareas, fortalecer la confianza y el trabajo conjunto, y promover la eficiencia y el logro de resultados.").mb-4
       figcaption Nota. SENA, (2026).
 
     br
@@ -359,7 +359,7 @@
 
       .row.justify-content-center.align-items-center.mb-0
         .col-12.col-lg-8.mb-3.mb-lg-0.order-2.order-lg-1
-          p.mb-4(data-aos="zoom-in-right") Entre algunos roles presentes en las organizaciones comunitarias se encuentran:
+          p.mb-3(data-aos="zoom-in-right") Entre algunos roles presentes en las organizaciones comunitarias se encuentran:
           ul.list-unstyled.mb-4
             li.d-flex.align-items-baseline.mb-0
               i.fa-solid.fa-circle.me-3.flex-shrink-0(style="color:#FF8E6B; font-size: 8px; line-height: 1.5;").mb-0
@@ -376,8 +376,8 @@
             li.d-flex.align-items-baseline.mb-0
               i.fa-solid.fa-circle.me-3.flex-shrink-0(style="color:#FF8E6B; font-size: 8px; line-height: 1.5;").mb-0
               span Integrantes de comités o grupos de trabajo.
-          p.mb-4(data-aos="zoom-in-right") La construcción de ambientes de trabajo colaborativo contribuye al fortalecimiento de las organizaciones y mejora la capacidad de respuesta frente a las necesidades del territorio.
-        .col-8.col-lg-4.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="flip-left")
+          p.mb-2(data-aos="zoom-in-right") La construcción de ambientes de trabajo colaborativo contribuye al fortalecimiento de las organizaciones y mejora la capacidad de respuesta frente a las necesidades del territorio.
+        .col-12.col-lg-4.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="flip-left")
           figure
             img(src='@/assets/curso/tema3/img_17.png', class="img-fluid")
 
@@ -464,7 +464,7 @@
       p.mb-4(data-aos="zoom-in-right") La comunicación organizacional corresponde al intercambio de información entre los integrantes de una organización. Una comunicación efectiva facilita la coordinación de actividades, mejora las relaciones interpersonales y fortalece la integración comunitaria. La comunicación permite transmitir ideas, orientaciones, necesidades y propuestas, facilitando la participación de los actores involucrados en los procesos organizacionales y comunitarios. En las organizaciones rurales y comunitarias, una adecuada comunicación contribuye a evitar conflictos, mejorar la organización de actividades y fortalecer la transparencia en la toma de decisiones. 
       p.mb-4(data-aos="zoom-in-right") La comunicación puede desarrollarse de diferentes maneras:
       .row.justify-content-center.align-items-center.mb-5 
-        .col-12.col-lg-8.order-2.order-lg-1
+        .col-12.col-lg-12.col-xl-8.order-2.order-lg-1
           .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
             SlyderF(columnas="col-12 col-sm-6 col-md-12 col-lg-6").p-2.rounded-3
               .tarjeta-img-titulo
@@ -517,7 +517,7 @@
             li.d-flex.align-items-baseline.mb-0(data-aos="zoom-in-right")
               i.fa-solid.fa-circle.me-3.flex-shrink-0(style="color:#FF8E6B; font-size: 8px; line-height: 1.5;").mb-0
               span Facilitar espacios de concertación y retroalimentación.
-        .col-6.col-lg-4.mb-3.mb-lg-0.order-1.order-lg-2
+        .col-12.col-lg-4.mb-3.mb-lg-0.order-1.order-lg-2
           .cajon.color-acento-botones.p-4(data-aos="zoom-in-right")
             p.mb-0 #[strong NOTA:] una comunicación efectiva contribuye al fortalecimiento organizacional y mejora la capacidad de coordinación y trabajo colectivo.
     .tarjeta-numerada.tarjeta-numerada--vertical.color-acento-contenido-10.h-100.mb-5

@@ -34,19 +34,19 @@
         .tarjeta--container.row.mb-5
           .col-md.tarjeta.color-secundario-10.p-5
             .row.justify-content-center.align-items-center.mb-4
-              .col-6
+              .col-6.col-md-8.col-lg-8.col-xl-6
                 figure
                   img(src='@/assets/curso/tema2/img_2.svg', class="img-fluid")
             p.mb-0.text-center Herramientas para un DRP.
           .col-md.tarjeta.color-acento-contenido-10.p-5
             .row.justify-content-center.align-items-center.mb-4
-              .col-6
+              .col-6.col-md-8.col-lg-8.col-xl-6
                 figure
                   img(src='@/assets/curso/tema2/img_3.svg', class="img-fluid")
             p.mb-0.text-center Pasos en la preparación de un DRP.
           .col-md.tarjeta.color-secundario-10.p-5
             .row.justify-content-center.align-items-center.mb-4
-              .col-6
+              .col-6.col-md-8.col-lg-8.col-xl-6
                 figure
                   img(src='@/assets/curso/tema2/img_4.svg', class="img-fluid")
             p.mb-0.text-center Trabajo en campo.
@@ -160,8 +160,8 @@
       h5 Figura 2.
       |    Factores internos y externos
     figure(data-aos="flip-left").mb-5
-      img(src='@/assets/curso/tema2/img_9.svg', class="img-fluid d-none d-lg-block").mb-3
-      img(src='@/assets/curso/tema2/img_10.svg', class="img-fluid d-block d-lg-none").mb-3
+      img(src='@/assets/curso/tema2/img_9.svg', class="img-fluid d-none d-lg-block", alt="La figura presenta un comparativo entre los factores internos y externos que influyen en una organización. Los factores internos incluyen liderazgo, comunicación, trabajo en equipo, recursos, capacidad administrativa y experiencia organizativa. Los factores externos abarcan políticas públicas, condiciones del mercado, acceso a programas institucionales, cambios climáticos, conflictos sociales y dinámicas territoriales. También la figura destaca cómo ambos tipos de factores pueden afectar el desempeño, la gestión y el logro de los objetivos.").mb-3
+      img(src='@/assets/curso/tema2/img_10.svg', class="img-fluid d-block d-lg-none", alt="La figura presenta un comparativo entre los factores internos y externos que influyen en una organización. Los factores internos incluyen liderazgo, comunicación, trabajo en equipo, recursos, capacidad administrativa y experiencia organizativa. Los factores externos abarcan políticas públicas, condiciones del mercado, acceso a programas institucionales, cambios climáticos, conflictos sociales y dinámicas territoriales. También la figura destaca cómo ambos tipos de factores pueden afectar el desempeño, la gestión y el logro de los objetivos.").mb-3
       figcaption Nota. SENA, 2026
 
     .row.justify-content-center.align-items-start.mb-0
@@ -200,7 +200,7 @@
             li.d-flex.align-items-baseline.mb-0
               i.fa-solid.fa-circle.me-3.flex-shrink-0(style="color:#FF8E6B; font-size: 8px; line-height: 1.5;").mb-0
               span La priorización permite establecer cuáles problemáticas requieren atención inmediata según criterios como impacto, urgencia, viabilidad y capacidad de intervención. Este proceso facilita orientar los esfuerzos y recursos hacia las necesidades más relevantes para la comunidad.
-        .col-6.col-lg-4.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="flip-left")
+        .col-12.col-md-10.col-lg-4.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="flip-left")
           figure
             img(src='@/assets/curso/tema2/img_14.png', class="img-fluid")
 
@@ -290,11 +290,11 @@
         figure
           img(src='@/assets/curso/tema2/img_19.png', class="img-fluid")
 
-    .row.justify-content-center.align-items-center.mt-5.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in-right")
       .col-12.col-lg-8
-        .tarjeta.color-primario.p-5.rounded-3.mb-3(data-aos="zoom-in-right")
+        .tarjeta.color-primario.p-5.rounded-3.mb-3
           .row.justify-content-center.align-items-center.mb-0
-            .col-6.col-lg-6.mb-lg-0.mb-3
+            .col-8.col-md-6.col-lg-6.mb-lg-0.mb-3
               figure
                 img(src="@/assets/curso/tema2/img_20.png", class="img-fluid w-100")
             .col-12.col-lg-6.mb-lg-0
@@ -304,6 +304,8 @@
                 :audio="require('@/assets/curso/tema2/img_20.png')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = True")
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+  
+
 </template>
 
 <script>

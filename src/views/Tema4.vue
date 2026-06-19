@@ -180,10 +180,10 @@
       p.mb-4(data-aos="zoom-in-right") Las técnicas participativas permiten recopilar información, identificar necesidades, priorizar problemáticas y definir acciones de manera concertada. Estas metodologías favorecen el diálogo, la integración comunitaria y la construcción colectiva de propuestas. Entre las principales técnicas participativas se encuentran:
       .tarjeta-numerada__contenido-wrapper
         .row.justify-content-center.align-items-center.mb-5
-          .col-12.col-lg-3.mb-3.mb-lg-0(data-aos="flip-left")
+          .col-12.col-lg-6.col-xl-4.mb-3.mb-lg-0(data-aos="flip-left")
             figure
               img(src='@/assets/curso/tema4/img_8.png', class="img-fluid")       
-          .col-12.col-lg-8.mb-3.mb-lg-0(data-aos="flip-left")
+          .col-12.col-lg-12.col-xl-8.mb-3.mb-lg-0(data-aos="flip-left")
             .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
               SlyderF(columnas="col-12 col-sm-6 col-md-12 col-lg-6").p-2.rounded-3
                 .tarjeta--white.h-100
@@ -453,12 +453,12 @@
             li.d-flex.align-items-baseline.mb-3(data-aos="zoom-in-right")
               i.fa-solid.fa-circle.me-3.flex-shrink-0(style="color:#FF8E6B; font-size: 8px; line-height: 1.5;").mb-0
               span En la planeación: se utilizan para formular acciones, estrategias y procesos de seguimiento. 
-
-    .row.justify-content-center.align-items-center.mt-5.mb-5
+    
+    .row.justify-content-center.mb-5(data-aos="zoom-in-right")
       .col-12.col-lg-8
-        .tarjeta.color-primario.p-5.rounded-3.mb-3(data-aos="zoom-in-right")
+        .tarjeta.color-primario.p-5.rounded-3.mb-3
           .row.justify-content-center.align-items-center.mb-0
-            .col-6.col-lg-6.mb-lg-0.mb-3
+            .col-8.col-md-6.col-lg-6.mb-lg-0.mb-3
               figure
                 img(src="@/assets/curso/tema2/img_20.png", class="img-fluid w-100")
             .col-12.col-lg-6.mb-lg-0
