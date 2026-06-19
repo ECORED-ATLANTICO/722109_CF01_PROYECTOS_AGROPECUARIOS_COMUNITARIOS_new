@@ -359,7 +359,7 @@
     .mb-0 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-8.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
+      .col-12.col-md-10.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
         figure
           img(src='@/assets/curso/tema4/img_17.png', class="img-fluid")
       .col-12.col-lg-8.mb-3.mb-lg-0
@@ -442,7 +442,7 @@
                 p.mb-0 La implementación, el seguimiento y la evaluación son procesos complementarios que permiten fortalecer la gestión organizacional y mejorar el impacto de las acciones desarrolladas en las comunidades rurales.
               .bloque-enlace__accion
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10.mb-0(data-aos="flip-left") 
         .cajon.color-acento-botones.p-4(data-aos="zoom-in-right")
           p.mb-3 #[strong NOTA:] algunos temas relacionados con planeación organizacional y gestión participativa es común que algunos instrumentos aparezcan tanto en temas de diagnóstico y análisis organizacional como en procesos de planeación y seguimiento. Lo importante es abordarlos desde enfoques diferentes para evitar repeticiones, por ejemplo: 
