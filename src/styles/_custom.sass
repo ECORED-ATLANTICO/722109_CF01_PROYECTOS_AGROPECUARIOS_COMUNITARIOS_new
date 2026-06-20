@@ -539,9 +539,16 @@ figcaption
       background-size: 100% 100%
       z-index: -1
       pointer-events: none
+      @media (max-width: 1024px)
+          width: 200%
+      @media (max-width: 991px)
+          width: 500%
+      @media (max-width: 767px)
+          width: 950%
     > *
       position: relative
       z-index: 2
+     
      
   &_2
     position: relative
@@ -584,6 +591,12 @@ figcaption
       background-size: 100% 100%
       z-index: -1
       pointer-events: none
+      @media (max-width: 1024px)
+          width: 160%
+      @media (max-width: 991px)
+          width: 500%
+      @media (max-width: 767px)
+          width: 800%
     > *
       position: relative
       z-index: 2
