@@ -140,7 +140,7 @@ figcaption
     align-items: flex-start
     padding: 2rem 4rem 2rem 4rem
     min-height: auto
-    margin-left: -2.5rem
+    margin-left: -6.5rem
     background-size: cover
     background-position: center
     gap: 1rem
@@ -162,7 +162,7 @@ figcaption
   // Móvil pequeño (≤576px)
   @media (max-width: $bp-max-xs)
     padding: 2rem 3rem 2rem 3rem
-    margin-left: -2rem
+    margin-left: -4rem
     background-size: cover
 
     &__contenido
@@ -329,11 +329,12 @@ figcaption
 // Bloque de texto con ícono circular flotante arriba-centro
 .bloque-texto-icono
   position: relative
-  background-color: $color-secundario-10
+  background-color: $color-secundario-20
   border-radius: 20px
   padding: 4rem 3rem 2rem 3rem
   margin-top: 3rem
-
+  height: 200px 
+    
   &__icono
     position: absolute
     top: -3rem
@@ -374,6 +375,7 @@ figcaption
   // Desktop grande (1200-1399px)
   @media (max-width: $bp-max-lg)
     padding: 3.5rem 2.5rem 1.75rem 2.5rem
+    height: 250px 
 
     &__contenido p
       font-size: 0.95rem
@@ -381,6 +383,7 @@ figcaption
   // Tablet (992-1199px)
   @media (max-width: $bp-max-md)
     padding: 3.5rem 2rem 1.75rem 2rem
+    height: 150px
 
     &__icono
       width: 80px
@@ -539,6 +542,7 @@ figcaption
     > *
       position: relative
       z-index: 2
+     
   &_2
     position: relative
     h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
@@ -661,6 +665,10 @@ figcaption
       position: absolute !important
       top: 50%
       z-index: 10
+      width: 30px
+      height: 30px
+      min-width: 30px
+      min-height: 30px
       
       &.pe-3  // ← botón anterior (izquierda)
         left: 0
@@ -672,7 +680,7 @@ figcaption
         
     &__main
       width: 100% !important
-      padding: 0 60px
+      padding: 0 23px
 
 ///pasos-b__header__btn
 .pasos-b__header__btn--left, .pasos-b__header__btn--right

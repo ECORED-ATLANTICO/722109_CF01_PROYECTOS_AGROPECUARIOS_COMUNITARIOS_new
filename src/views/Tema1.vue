@@ -21,7 +21,7 @@
         .row.g-0.align-items-center
           .col-2.col-lg-1.bloque-enlace__icono-col
             figure.mb-0
-              img(src='@/assets/curso/tema1/img_2.svg', alt='').img-fluid
+              img(src='@/assets/curso/tema1/img_2.svg', alt='').img-fluid.d-none.d-lg-block
           .col-10.col-lg-11
             .bloque-enlace
               .bloque-enlace__contenido
@@ -46,14 +46,14 @@
     p.mb-5(data-aos="zoom-in-right") El desarrollo rural y las políticas agrarias en Colombia constituyen elementos fundamentales para el fortalecimiento económico, social y productivo de las comunidades rurales. A través de estrategias orientadas al mejoramiento de las condiciones de vida, la sostenibilidad ambiental y la participación comunitaria, el Estado busca promover procesos de desarrollo territorial que respondan a las necesidades y características de cada región. En este contexto, el enfoque territorial permite integrar aspectos productivos, sociales, culturales y ambientales para fortalecer las capacidades de las comunidades y promover un desarrollo rural más incluyente y sostenible.
 
     .row.justify-content-center.align-items-start.mb-0
-      .col-12.col-lg-3.mb-3.mb-lg-0(data-aos="flip-left")
+      .col-12.col-lg-8.col-xl-3.mb-3.mb-lg-0(data-aos="flip-left")
         figure
           img(src='@/assets/curso/tema1/img_4.png', class="img-fluid")
-      .col-12.col-lg-9.mb-3.mb-lg-0(data-aos="flip-left")
+      .col-12.col-lg-12.col-xl-9.mb-3.mb-lg-0(data-aos="flip-left")
         TabsA.color-secundario.mb-3.uno
           .tarjeta.color-secundario-10.p-5(titulo="Desarrollo rural")
             p.mb-0 El desarrollo rural comprende estrategias, políticas y acciones destinadas a mejorar las condiciones económicas, sociales, ambientales y culturales de las comunidades rurales. Además de fortalecer la producción agropecuaria, busca promover la calidad de vida, la inclusión social, el acceso a servicios básicos, la infraestructura, la participación comunitaria y la sostenibilidad ambiental. En Colombia, estas acciones deben adaptarse a las características y necesidades particulares de cada territorio y población rural.
-          .tarjeta.color-secundario-10.p-5(titulo="agrarias")
+          .tarjeta.color-secundario-10.p-5(titulo="Políticas agrarias")
             p.mb-0 Las políticas agrarias son lineamientos y acciones del Estado orientados al desarrollo del sector agropecuario y rural. Buscan fortalecer la producción, la competitividad y la seguridad alimentaria, facilitando el acceso a tierra, crédito, asistencia técnica y comercialización. El enfoque territorial promueve procesos de desarrollo basados en las capacidades, necesidades y potencialidades de las comunidades rurales y sus territorios.
           .tarjeta.color-secundario-10.p-5(titulo="Desarrollo territorial")
             p.mb-0 Promueve la articulación entre instituciones, organizaciones comunitarias y actores productivos para fortalecer la gestión rural. Asimismo, impulsa la sostenibilidad ambiental mediante prácticas productivas responsables, el manejo adecuado de los recursos naturales y la conservación de ecosistemas. Además, contribuye a reducir las brechas entre el campo y la ciudad, fortaleciendo las oportunidades y capacidades de las comunidades rurales.
@@ -67,13 +67,15 @@
     p.mb-4(data-aos="zoom-in-right") Las comunidades rurales enfrentan diversos desafíos relacionados con la producción agropecuaria, el acceso a recursos, la comercialización, la participación en la toma de decisiones y el desarrollo de sus territorios. Frente a esta realidad, la organización colectiva constituye una estrategia fundamental para fortalecer las capacidades de las personas y promover soluciones conjuntas a las necesidades e intereses comunes. Asimismo, la organización comunitaria y las diferentes formas de asociatividad favorecen la cooperación, el liderazgo y la gestión participativa, contribuyendo al bienestar y al desarrollo sostenible de las comunidades. 
     
     br
-
-    .bloque-texto-icono.mb-5(data-aos="fade-up")
-      .bloque-texto-icono__icono
-        figure.mb-0
-          img(src='@/assets/curso/tema1/img_5.svg', class="img-fluid")
-      .bloque-texto-icono__contenido
-        p.mb-0 En este sentido, resulta importante conocer las principales formas de organización presentes en el sector rural, su funcionamiento y los aportes que generan al desarrollo social, económico y territorial.
+    
+    .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-lg-10.mb-3.mb-lg-0
+          .bloque-texto-icono.mb-5(data-aos="fade-up")
+            .bloque-texto-icono__icono
+              figure.mb-0
+                img(src='@/assets/curso/tema1/img_5.svg', class="img-fluid")
+            .bloque-texto-icono__contenido
+              p.mb-0 En este sentido, resulta importante conocer las principales formas de organización presentes en el sector rural, su funcionamiento y los aportes que generan al desarrollo social, económico y territorial.
 
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
       .row.justify-content-center.align-items-center(titulo="Organización comunitaria")
@@ -182,7 +184,7 @@
         figure
           img(src='@/assets/curso/tema1/img_20.png', class="img-fluid")
       .col-12.col-lg-8.mb-3.mb-lg-0
-        .tarjeta.color-secundario-10.p-4.rounded-4.mb-3.h-100.d-flex.align-items-center(data-aos="zoom-in-right")
+        .tarjeta.color-primario-10-1.p-4.mb-3.h-100.d-flex.align-items-center(data-aos="zoom-in-right")
           p.mb-0 El Plan Departamental de Extensión Agropecuaria (PDEA) es un instrumento de planificación que orienta la prestación del Servicio Público de Extensión Agropecuaria según las necesidades del territorio. Su formulación se realiza de manera participativa e involucra a productores, organizaciones e instituciones, con el apoyo de los Consejos Municipales de Desarrollo Rural (CMDR).
         p.mb-4(data-aos="zoom-in-right") Los Planes Departamentales de Extensión Agropecuaria (PDEA), regulados por la Ley 1876 de 2017 y la Resolución 0096 de 2024, orientan la prestación de servicios de extensión agropecuaria según las necesidades territoriales. Estos planes priorizan a los productores de la Agricultura Campesina, Familiar, Étnica y Comunitaria ACFEC, promueven la sostenibilidad y la adaptación al cambio climático, y cuentan con mecanismos de financiación como el Fondo Nacional de Extensión Agropecuaria (FNEA).
 

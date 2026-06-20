@@ -428,34 +428,34 @@
           figure
             img(src='@/assets/curso/tema3/img_19.png', class="img-fluid")
       p.mb-4(data-aos="zoom-in-right") Existen diferentes estilos de liderazgo que pueden aplicarse según las características y necesidades de la organización:
-      .tarjeta.tarjeta--blanca.p-4
+      .tarjeta.tarjeta--blanca.p-1.p-md-3.p-lg-4
         PasosB.color-terciario
           .row.justify-content-center.align-items-start(titulo="Liderazgo participativo")
-            .col-6.col-lg-5.mb-3.mb-lg-0(data-aos="flip-left")
+            .col-12.col-md-6.col-lg-5.mb-3.mb-lg-0(data-aos="flip-left")
               figure
                 img(src='@/assets/curso/tema3/img_20.png', class="img-fluid")
-            .col-6.col-lg-7.mb-3.mb-lg-0
+            .col-12.col-md-6.col-lg-7.mb-3.mb-lg-0
               h5.mb-4(data-aos="zoom-in-right") Liderazgo participativo
               p.mb-0(data-aos="zoom-in-right") Se caracteriza por promover la participación de los integrantes en la planificación, ejecución y evaluación de las actividades organizacionales.
           .row.justify-content-center.align-items-start(titulo="Liderazgo democrático")
-            .col-6.col-lg-5.mb-3.mb-lg-0(data-aos="flip-left")
+            .col-12.col-md-6.col-lg-5.mb-3.mb-lg-0(data-aos="flip-left")
               figure
                 img(src='@/assets/curso/tema3/img_20.png', class="img-fluid")
-            .col-6.col-lg-7.mb-3.mb-lg-0
+            .col-12.col-md-6.col-lg-7.mb-3.mb-lg-0
               h5.mb-4(data-aos="zoom-in-right") Liderazgo democrático
               p.mb-0(data-aos="zoom-in-right") Es un estilo de liderazgo que involucra a los miembros de la organización en la toma de decisiones. Favorece el diálogo, la concertación y el trabajo colectivo.
           .row.justify-content-center.align-items-start(titulo="Liderazgo comunitario")
-            .col-6.col-lg-5.mb-3.mb-lg-0(data-aos="flip-left")
+            .col-12.col-md-6.col-lg-5.mb-3.mb-lg-0(data-aos="flip-left")
               figure
                 img(src='@/assets/curso/tema3/img_20.png', class="img-fluid")
-            .col-6.col-lg-7.mb-3.mb-lg-0
+            .col-12.col-md-6.col-lg-7.mb-3.mb-lg-0
               h5.mb-4(data-aos="zoom-in-right") Liderazgo comunitario
               p.mb-0(data-aos="zoom-in-right") Surge dentro de las comunidades y se orienta a representar, motivar y movilizar a las personas en torno a intereses y necesidades comunes.
           .row.justify-content-center.align-items-start(titulo="Liderazgo transformacional")
-            .col-6.col-lg-5.mb-3.mb-lg-0(data-aos="flip-left")
+            .col-12.col-md-6.col-lg-5.mb-3.mb-lg-0(data-aos="flip-left")
               figure
                 img(src='@/assets/curso/tema3/img_20.png', class="img-fluid")
-            .col-6.col-lg-7.mb-3.mb-lg-0
+            .col-12.col-md-6.col-lg-7.mb-3.mb-lg-0
               h5.mb-4(data-aos="zoom-in-right") Liderazgo transformacional
               p.mb-0(data-aos="zoom-in-right") Se enfoca en inspirar y motivar a las personas para generar cambios positivos dentro de la organización.
     .tarjeta-numerada.tarjeta-numerada--vertical.color-secundario-10.h-100.mb-5
@@ -465,7 +465,7 @@
       p.mb-4(data-aos="zoom-in-right") La comunicación puede desarrollarse de diferentes maneras:
       .row.justify-content-center.align-items-center.mb-5 
         .col-12.col-lg-12.col-xl-8.order-2.order-lg-1
-          .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
+          .custom-slider.p-2.p-sm-1(data-aos="zoom-in-right")
             SlyderF(columnas="col-12 col-sm-6 col-md-12 col-lg-6").p-2.rounded-3
               .tarjeta-img-titulo
                 .tarjeta-img-titulo__imagen

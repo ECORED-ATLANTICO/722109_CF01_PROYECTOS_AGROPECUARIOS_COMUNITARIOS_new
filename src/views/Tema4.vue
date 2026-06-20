@@ -184,8 +184,8 @@
             figure
               img(src='@/assets/curso/tema4/img_8.png', class="img-fluid")       
           .col-12.col-lg-12.col-xl-8.mb-3.mb-lg-0(data-aos="flip-left")
-            .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
-              SlyderF(columnas="col-12 col-sm-6 col-md-12 col-lg-6").p-2.rounded-3
+            .custom-slider.p-1.p-sm-1(data-aos="zoom-in-right")
+              SlyderF(columnas="col-12 col-sm-6 col-md-12 col-lg-6").p-1.rounded-3
                 .tarjeta--white.h-100
                   .tarjeta--08.mb-4 
                   h5.mb-3.text-center Lluvia de ideas

@@ -18,6 +18,8 @@
     background-color: $white
     border-radius: 20px
     padding: 11rem 2rem 1rem 2rem
+    @media (max-width: $bp-max-sm)
+      padding: 9rem 1rem 1rem 1rem
     position: relative
     display: flex
     flex-direction: column
@@ -758,6 +760,15 @@
       background-color: lighten($color-primario-10, 50%)
       color: textColor(lighten($color-primario-10, 50%))
       border: solid 4px $color-primario-10
+  &.color-primario-10-1
+    background-color: $color-primario-10
+    border-radius: 0px !important
+    *
+      color: textColor($color-primario-10)
+    &--borde
+      background-color: lighten($color-primario-10, 50%)
+      color: textColor(lighten($color-primario-10, 50%))
+      border: solid 4px $color-primario-10
   &.color-primario-20
     background-color: $color-primario-20
     *
@@ -1004,6 +1015,10 @@
       top: 120px
       transform: translate(-50%, -50%)
       box-shadow: 0 4px 10px rgba(0,0,0,0.15)
+      @media (max-width: $bp-max-xs)
+        width: 60px
+        height: 60px
+        left: 10px
       div
         color: textColor($color-primario-10)
     .tarjeta-numerada__numero img
@@ -1037,6 +1052,10 @@
       top: 120px
       transform: translate(-50%, -50%)
       box-shadow: 0 4px 10px rgba(0,0,0,0.15)
+      @media (max-width: $bp-max-xs)
+        width: 60px
+        height: 60px
+        left: 10px
       div
         color: textColor($color-secundario-10)
     .tarjeta-numerada__numero img
@@ -1128,6 +1147,10 @@
       top: 120px
       transform: translate(-50%, -50%)
       box-shadow: 0 4px 10px rgba(0,0,0,0.15)
+      @media (max-width: $bp-max-xs)
+        width: 60px
+        height: 60px
+        left: 10px
       div
         color: textColor($color-secundario-10)
     .tarjeta-numerada__numero img
