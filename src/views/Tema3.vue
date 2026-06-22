@@ -216,14 +216,14 @@
             li.d-flex.align-items-baseline.mb-0(data-aos="zoom-in-right")
               i.fa-solid.fa-circle.me-3.flex-shrink-0(style="color:#FF8E6B; font-size: 8px; line-height: 1.5;").mb-0
               span Gestión de proyectos y recursos.
-        .col-6.col-lg-3.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="flip-left")
+        .col-6.col-lg-3.mb-3.mb-lg-0.order-1.order-lg-2.mt-2(data-aos="flip-left")
           figure
             img(src='@/assets/curso/tema3/img_12.png', class="img-fluid")
 
     .tarjeta-numerada.tarjeta-numerada--vertical.color-secundario-10.h-100.mb-5
       .tarjeta-numerada__numero.d-flex.align-items-center.justify-content-center
         h1.mb-0 B
-      p.mb-4(data-aos="zoom-in-right") Para el desarrollo del análisis organizacional se utilizan diferentes herramientas e instrumentos que facilitan la recopilación y análisis de información.  
+      p.mb-4.mt-2(data-aos="zoom-in-right") Para el desarrollo del análisis organizacional se utilizan diferentes herramientas e instrumentos que facilitan la recopilación y análisis de información.  
       .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
         h5 Tabla 5.
         |  Herramientas para análisis organizacional
@@ -292,7 +292,7 @@
     .tarjeta-numerada.tarjeta-numerada--vertical.color-acento-contenido-10.h-100.mb-5
       .tarjeta-numerada__numero.d-flex.align-items-center.justify-content-center
         h1.mb-0 C
-      p.mb-4(data-aos="zoom-in-right") Los indicadores organizacionales son instrumentos que permiten medir el desempeño y avance de la organización frente a determinados objetivos o procesos. Estos indicadores facilitan el seguimiento, la evaluación y la toma de decisiones.
+      p.mb-4.mt-2(data-aos="zoom-in-right") Los indicadores organizacionales son instrumentos que permiten medir el desempeño y avance de la organización frente a determinados objetivos o procesos. Estos indicadores facilitan el seguimiento, la evaluación y la toma de decisiones.
       .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
         h5 Tabla 6.
         |  Ejemplos de indicadores organizacionales
@@ -424,7 +424,7 @@
             li.d-flex.align-items-baseline.mb-0(data-aos="zoom-in-right")
               i.fa-solid.fa-circle.me-3.flex-shrink-0(style="color:#FF8E6B; font-size: 8px; line-height: 1.5;").mb-0
               span Representar a la organización ante otras entidades e instituciones.
-        .col-6.col-lg-4.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="flip-left")
+        .col-6.col-lg-4.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="flip-left").mt-2
           figure
             img(src='@/assets/curso/tema3/img_19.png', class="img-fluid")
       p.mb-4(data-aos="zoom-in-right") Existen diferentes estilos de liderazgo que pueden aplicarse según las características y necesidades de la organización:
@@ -461,7 +461,7 @@
     .tarjeta-numerada.tarjeta-numerada--vertical.color-secundario-10.h-100.mb-5
       .tarjeta-numerada__numero.d-flex.align-items-center.justify-content-center
         h1.mb-0 B
-      p.mb-4(data-aos="zoom-in-right") La comunicación organizacional corresponde al intercambio de información entre los integrantes de una organización. Una comunicación efectiva facilita la coordinación de actividades, mejora las relaciones interpersonales y fortalece la integración comunitaria. La comunicación permite transmitir ideas, orientaciones, necesidades y propuestas, facilitando la participación de los actores involucrados en los procesos organizacionales y comunitarios. En las organizaciones rurales y comunitarias, una adecuada comunicación contribuye a evitar conflictos, mejorar la organización de actividades y fortalecer la transparencia en la toma de decisiones. 
+      p.mb-4.mt-2(data-aos="zoom-in-right") La comunicación organizacional corresponde al intercambio de información entre los integrantes de una organización. Una comunicación efectiva facilita la coordinación de actividades, mejora las relaciones interpersonales y fortalece la integración comunitaria. La comunicación permite transmitir ideas, orientaciones, necesidades y propuestas, facilitando la participación de los actores involucrados en los procesos organizacionales y comunitarios. En las organizaciones rurales y comunitarias, una adecuada comunicación contribuye a evitar conflictos, mejorar la organización de actividades y fortalecer la transparencia en la toma de decisiones. 
       p.mb-4(data-aos="zoom-in-right") La comunicación puede desarrollarse de diferentes maneras:
       .row.justify-content-center.align-items-center.mb-5 
         .col-12.col-lg-12.col-xl-8.order-2.order-lg-1

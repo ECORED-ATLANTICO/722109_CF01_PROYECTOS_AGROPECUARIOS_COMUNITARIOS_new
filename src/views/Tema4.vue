@@ -177,7 +177,7 @@
     .tarjeta-numerada.tarjeta-numerada--vertical.color-primario-10.h-100.mb-5
       .tarjeta-numerada__numero.d-flex.align-items-center.justify-content-center
         h1.mb-0 A
-      p.mb-4(data-aos="zoom-in-right") Las técnicas participativas permiten recopilar información, identificar necesidades, priorizar problemáticas y definir acciones de manera concertada. Estas metodologías favorecen el diálogo, la integración comunitaria y la construcción colectiva de propuestas. Entre las principales técnicas participativas se encuentran:
+      p.mb-4.mt-2(data-aos="zoom-in-right") Las técnicas participativas permiten recopilar información, identificar necesidades, priorizar problemáticas y definir acciones de manera concertada. Estas metodologías favorecen el diálogo, la integración comunitaria y la construcción colectiva de propuestas. Entre las principales técnicas participativas se encuentran:
       .tarjeta-numerada__contenido-wrapper
         .row.justify-content-center.align-items-center.mb-5
           .col-12.col-lg-6.col-xl-4.mb-3.mb-lg-0(data-aos="flip-left")
@@ -218,7 +218,7 @@
     .tarjeta-numerada.tarjeta-numerada--vertical.color-secundario-10.h-100.mb-5
       .tarjeta-numerada__numero.d-flex.align-items-center.justify-content-center
         h1.mb-0 B
-      p.mb-4(data-aos="zoom-in-right") Los instrumentos de planeación facilitan la organización y seguimiento de la información obtenida durante los procesos participativos. Estas herramientas permiten estructurar actividades, establecer prioridades y evaluar avances organizacionales.
+      p.mb-4.mt-2(data-aos="zoom-in-right") Los instrumentos de planeación facilitan la organización y seguimiento de la información obtenida durante los procesos participativos. Estas herramientas permiten estructurar actividades, establecer prioridades y evaluar avances organizacionales.
 
       .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
         h5 Tabla 7.

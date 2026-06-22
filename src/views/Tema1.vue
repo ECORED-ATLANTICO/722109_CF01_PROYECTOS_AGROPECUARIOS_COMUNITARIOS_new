@@ -70,7 +70,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-10.mb-3.mb-lg-0
-          .bloque-texto-icono.mb-5(data-aos="fade-up")
+          .bloque-texto-icono.mb-0(style="padding: 3rem 2rem 2rem 2rem; height: 130px !important;")
             .bloque-texto-icono__icono
               figure.mb-0
                 img(src='@/assets/curso/tema1/img_5.svg', class="img-fluid")
