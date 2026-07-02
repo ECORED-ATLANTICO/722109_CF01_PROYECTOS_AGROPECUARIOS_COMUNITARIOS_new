@@ -300,8 +300,8 @@
             .col-12.col-lg-6.mb-lg-0
               h2.mb-5.text-white Pódcast
               TarjetaAudio.color-acento-botones.mb-0.p-5(
-                texto="<I>Nombre pódcast</I>"
-                :audio="require('@/assets/curso/tema2/img_20.png')"
+                texto="<I>Planear para avanzar: Diagnóstico participativo y fortalecimiento organizacional en las comunidades rurales</I>"
+                :audio="require('@/assets/curso/podcast/podcast_1.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = True")
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
   
