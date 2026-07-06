@@ -221,8 +221,8 @@
       p.mb-4.mt-2(data-aos="zoom-in-right") Los instrumentos de planeación facilitan la organización y seguimiento de la información obtenida durante los procesos participativos. Estas herramientas permiten estructurar actividades, establecer prioridades y evaluar avances organizacionales.
 
       .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
-        h5 Tabla 7.
-        |  Estrategias organizacionales en la formulación
+        h5 Tabla 8.
+        |  Principales instrumentos de planeación
       .tabla-a.mb-4(data-aos="flip-left")
         table
           caption 
@@ -280,7 +280,7 @@
         .tabla-a.mb-0(data-aos="flip-left")
           table
             caption 
-              p.mb-0 Nota. SENA, (2026)
+              p.mb-0 Nota. SENA, (2026).
             thead
               tr
                 th.col-auto.col-lg-4 Elemento
@@ -322,7 +322,7 @@
         .tabla-a.mb-0(data-aos="flip-left")
           table
             caption 
-              p.mb-0 Nota. SENA, (2026)
+              p.mb-0 Nota. SENA, (2026).
             thead
               tr
                 th.col-auto.col-lg-4 Etapa

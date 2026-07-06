@@ -16,7 +16,7 @@
         .tarjeta.color-acento-contenido-10.p-4.rounded-0.mb-3.h-100.d-flex.align-items-center(data-aos="zoom-in-right")
           .row.justify-content-center.align-items-center.mb-0
             .col-12.col-lg-8.mb-3.mb-lg-0.mb-0.order-2.order-lg-1 
-              p.mb-0Las organizaciones rurales requieren mecanismos que permitan orientar sus acciones, distribuir responsabilidades y promover procesos de comunicación y liderazgo que favorezcan el cumplimiento de objetivos colectivos. En este contexto, el trabajo participativo facilita la integración de conocimientos, experiencias y capacidades de los diferentes actores comunitarios, fortaleciendo la gestión organizacional y el desarrollo territorial.
+              p.mb-0Las Las organizaciones rurales requieren mecanismos que permitan orientar sus acciones, distribuir responsabilidades y promover procesos de comunicación y liderazgo que favorezcan el cumplimiento de objetivos colectivos. En este contexto, el trabajo participativo facilita la integración de conocimientos, experiencias y capacidades de los diferentes actores comunitarios, fortaleciendo la gestión organizacional y el desarrollo territorial.
             .col-12.col-lg-4.mb-3.mb-lg-0.order-1.order-lg-2
               figure
                 img(src='@/assets/curso/tema3/img_2.png', class="img-fluid")
@@ -327,7 +327,7 @@
               td.text-start Proyectos desarrollados por la organización.
               td.text-start Permite medir capacidad organizativa.
 
-    p.mb-0(data-aos="zoom-in-right") El análisis organizacional contribuye a fortalecer los procesos de planeación, mejorar la toma de decisiones y promover la sostenibilidad de las organizaciones rurales y comunitarias.
+    p.mb-0(data-aos="zoom-in-right") <b>NOTA:</b> El análisis organizacional contribuye a fortalecer los procesos de planeación, mejorar la toma de decisiones y promover la sostenibilidad de las organizaciones rurales y comunitarias.
     
     Separador
 
@@ -403,6 +403,7 @@
         h1.mb-0 A
       .row.justify-content-center.align-items-center.mb-4
         .col-12.col-lg-8.mb-3.mb-lg-0.order-2.order-lg-1
+          b.mb-3(data-aos="zoom-in-right") Liderazgo 
           p.mb-4(data-aos="zoom-in-right") El liderazgo organizacional es la capacidad de orientar, motivar y coordinar a las personas para alcanzar objetivos comunes. En las organizaciones rurales y comunitarias, promueve la participación, la gestión de iniciativas, la toma de decisiones, la integración y la solución de conflictos. Además, fortalece la confianza, la motivación y las capacidades de los integrantes, favoreciendo el desarrollo de los procesos colectivos.
           p.mb-4(data-aos="zoom-in-right") Entre las principales funciones del liderazgo organizacional se encuentran:
           ul.list-unstyled.mb-0
@@ -461,6 +462,7 @@
     .tarjeta-numerada.tarjeta-numerada--vertical.color-secundario-10.h-100.mb-5
       .tarjeta-numerada__numero.d-flex.align-items-center.justify-content-center
         h1.mb-0 B
+      b.mb-1(data-aos="zoom-in-right") Comunicación
       p.mb-4.mt-2(data-aos="zoom-in-right") La comunicación organizacional corresponde al intercambio de información entre los integrantes de una organización. Una comunicación efectiva facilita la coordinación de actividades, mejora las relaciones interpersonales y fortalece la integración comunitaria. La comunicación permite transmitir ideas, orientaciones, necesidades y propuestas, facilitando la participación de los actores involucrados en los procesos organizacionales y comunitarios. En las organizaciones rurales y comunitarias, una adecuada comunicación contribuye a evitar conflictos, mejorar la organización de actividades y fortalecer la transparencia en la toma de decisiones. 
       p.mb-4(data-aos="zoom-in-right") La comunicación puede desarrollarse de diferentes maneras:
       .row.justify-content-center.align-items-center.mb-5 
@@ -523,6 +525,7 @@
     .tarjeta-numerada.tarjeta-numerada--vertical.color-acento-contenido-10.h-100.mb-5
       .tarjeta-numerada__numero.d-flex.align-items-center.justify-content-center
         h1.mb-0 C
+      b.mb-2(data-aos="zoom-in-right") Estrategias de participación colaborativa
       p.mb-4(data-aos="zoom-in-right") Las estrategias de participación colaborativa buscan promover la integración de los actores comunitarios en los procesos organizacionales y territoriales. Estas estrategias facilitan la concertación, el trabajo conjunto y la construcción colectiva de propuestas orientadas al bienestar comunitario. La participación colaborativa fortalece el sentido de pertenencia, mejora las relaciones entre los integrantes y favorece la construcción de soluciones acordes con las necesidades del territorio. Las organizaciones rurales utilizan diferentes estrategias para promover la participación y el trabajo conjunto de sus integrantes y de la comunidad en general. Entre las estrategias más utilizadas se encuentran:
       p.mb-4(data-aos="zoom-in-right") Entre las diferentes estrategias de participación colaborativa tenemos:
       .row.justify-content-center.align-items-start.mb-4

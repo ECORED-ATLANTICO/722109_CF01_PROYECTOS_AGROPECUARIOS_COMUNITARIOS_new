@@ -61,7 +61,7 @@
     Separador
 
     #t_1_2.titulo-segundo.color-acento-contenido
-      .h2(data-aos="fade-right") 1.2 Organización comunitaria, asociatividad rural y Agricultura Campesina, Familiar y Comunitaria (ACFC).
+      .h2(data-aos="fade-right") 1.2 Organización comunitaria, asociatividad rural y Agricultura Campesina, Familiar y Comunitaria (ACFC)
     .mb-0 
 
     p.mb-4(data-aos="zoom-in-right") Las comunidades rurales enfrentan diversos desafíos relacionados con la producción agropecuaria, el acceso a recursos, la comercialización, la participación en la toma de decisiones y el desarrollo de sus territorios. Frente a esta realidad, la organización colectiva constituye una estrategia fundamental para fortalecer las capacidades de las personas y promover soluciones conjuntas a las necesidades e intereses comunes. Asimismo, la organización comunitaria y las diferentes formas de asociatividad favorecen la cooperación, el liderazgo y la gestión participativa, contribuyendo al bienestar y al desarrollo sostenible de las comunidades. 
@@ -177,7 +177,7 @@
     figure(data-aos="flip-left").mb-5
       img(src='@/assets/curso/tema1/img_18.svg', class="img-fluid d-none d-lg-block", alt="La figura presenta qué es el SNIA, sus objetivos principales, los actores que participan y los beneficios para los productores rurales. Así mismo explica que el SNIA articula actores, políticas e instrumentos para promover la investigación, la innovación, la transferencia de conocimiento y la extensión agropecuaria. En el centro se ubica un círculo con la sigla “SNIA” y el texto “Articulación para innovar y transformar el campo colombiano”, rodeado por flechas que representan la integración de los diferentes componentes del sistema.").mb-3
       img(src='@/assets/curso/tema1/img_19.svg', class="img-fluid d-block d-lg-none", alt="La figura presenta qué es el SNIA, sus objetivos principales, los actores que participan y los beneficios para los productores rurales. Así mismo explica que el SNIA articula actores, políticas e instrumentos para promover la investigación, la innovación, la transferencia de conocimiento y la extensión agropecuaria. En el centro se ubica un círculo con la sigla “SNIA” y el texto “Articulación para innovar y transformar el campo colombiano”, rodeado por flechas que representan la integración de los diferentes componentes del sistema.").mb-3
-      figcaption Nota. SENA, 2026
+      figcaption Nota. SENA, (2026).
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")

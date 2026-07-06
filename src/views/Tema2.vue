@@ -162,7 +162,7 @@
     figure(data-aos="flip-left").mb-5
       img(src='@/assets/curso/tema2/img_9.svg', class="img-fluid d-none d-lg-block", alt="La figura presenta un comparativo entre los factores internos y externos que influyen en una organización. Los factores internos incluyen liderazgo, comunicación, trabajo en equipo, recursos, capacidad administrativa y experiencia organizativa. Los factores externos abarcan políticas públicas, condiciones del mercado, acceso a programas institucionales, cambios climáticos, conflictos sociales y dinámicas territoriales. También la figura destaca cómo ambos tipos de factores pueden afectar el desempeño, la gestión y el logro de los objetivos.").mb-3
       img(src='@/assets/curso/tema2/img_10.svg', class="img-fluid d-block d-lg-none", alt="La figura presenta un comparativo entre los factores internos y externos que influyen en una organización. Los factores internos incluyen liderazgo, comunicación, trabajo en equipo, recursos, capacidad administrativa y experiencia organizativa. Los factores externos abarcan políticas públicas, condiciones del mercado, acceso a programas institucionales, cambios climáticos, conflictos sociales y dinámicas territoriales. También la figura destaca cómo ambos tipos de factores pueden afectar el desempeño, la gestión y el logro de los objetivos.").mb-3
-      figcaption Nota. SENA, 2026
+      figcaption Nota. SENA, (2026).
 
     .row.justify-content-center.align-items-start.mb-0
       .col-12.col-lg-6.mb-3.mb-lg-0
