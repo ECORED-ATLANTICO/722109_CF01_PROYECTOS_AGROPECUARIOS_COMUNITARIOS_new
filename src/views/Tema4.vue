@@ -454,20 +454,7 @@
               i.fa-solid.fa-circle.me-3.flex-shrink-0(style="color:#FF8E6B; font-size: 8px; line-height: 1.5;").mb-0
               span En la planeación: se utilizan para formular acciones, estrategias y procesos de seguimiento. 
     
-    .row.justify-content-center.mb-5(data-aos="zoom-in-right")
-      .col-12.col-lg-8
-        .tarjeta.color-primario.p-5.rounded-3.mb-3
-          .row.justify-content-center.align-items-center.mb-0
-            .col-8.col-md-6.col-lg-6.mb-lg-0.mb-3
-              figure
-                img(src="@/assets/curso/tema2/img_20.png", class="img-fluid w-100")
-            .col-12.col-lg-6.mb-lg-0
-              h2.mb-5.text-white Pódcast
-              TarjetaAudio.color-acento-botones.mb-0.p-5(
-                texto="<I>Nombre pódcast</I>"
-                :audio="require('@/assets/curso/tema2/img_20.png')"
-                @audio-hover="mostrarIndicadorTarjetaAudio = True")
-                .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+   
 </template>
 
 <script>
