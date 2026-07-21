@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-12.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="La figura describe la estructura del componente formativo: “Planeación organizacional y gestión de procesos participativos”, estructurado en cuatro unidades. La primera aborda el desarrollo rural, la organización comunitaria, la asociatividad y el marco normativo agropecuario. La segunda desarrolla el diagnóstico participativo, la identificación de actores, la caracterización del entorno y el análisis organizacional. La tercera se enfoca en los modelos organizacionales, el trabajo en equipo, los roles, el liderazgo y la comunicación. La cuarta comprende la planeación estratégica, la formulación del plan de acción, las técnicas participativas y los procesos de implementación, seguimiento y evaluación.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

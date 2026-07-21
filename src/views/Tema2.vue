@@ -290,6 +290,7 @@
         figure
           img(src='@/assets/curso/tema2/img_19.png', class="img-fluid")
 
+    p.mb-3 Lo invitamos a escuchar el siguiente pódcast.
     .row.justify-content-center.mb-5(data-aos="zoom-in-right")
       .col-12.col-lg-8
         .tarjeta.color-primario.p-5.rounded-3.mb-3
@@ -300,7 +301,7 @@
             .col-12.col-lg-6.mb-lg-0
               h2.mb-5.text-white Pódcast
               TarjetaAudio.color-acento-botones.mb-0.p-5(
-                texto="<I>Planear para avanzar: Diagnóstico participativo y fortalecimiento organizacional en las comunidades rurales</I>"
+                texto="<I>Planear para avanzar: diagnóstico participativo y fortalecimiento organizacional en las comunidades rurales</I>"
                 :audio="require('@/assets/curso/podcast/podcast_1.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = True")
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")

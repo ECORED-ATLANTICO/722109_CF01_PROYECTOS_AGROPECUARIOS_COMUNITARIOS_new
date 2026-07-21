@@ -8,7 +8,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    p.mb-4 El componente formativo Planeación organizacional y gestión de procesos participativos orienta al fortalecimiento de las competencias técnicas, organizacionales y metodológicas necesarias para reconocer, analizar y establecer modelos organizacionales acordes con las necesidades del entorno rural y comunitario. En el marco del programa proyectos agropecuarios comunitarios, este componente busca que el aprendiz adquiera herramientas que le permitan participar en procesos de organización, diagnóstico, planeación y formulación de acciones orientadas al fortalecimiento de las organizaciones rurales.
+    p.mb-4 El componente formativo Planeación organizacional y gestión de procesos participativos orienta al fortalecimiento de las competencias técnicas, organizacionales y metodológicas necesarias para reconocer, analizar y establecer modelos organizacionales acordes con las necesidades del entorno rural y comunitario. En el marco del programa Técnico profesional proyectos agropecuarios comunitarios, este componente busca que el aprendiz adquiera herramientas que le permitan participar en procesos de organización, diagnóstico, planeación y formulación de acciones orientadas al fortalecimiento de las organizaciones rurales.
 
     .row.justify-content-center.align-items-start.mb-4
       .col-12.col-lg-3.mb-3.mb-lg-0(data-aos="flip-right")
