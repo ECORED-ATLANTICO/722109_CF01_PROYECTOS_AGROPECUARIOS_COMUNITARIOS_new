@@ -454,7 +454,7 @@
               i.fa-solid.fa-circle.me-3.flex-shrink-0(style="color:#FF8E6B; font-size: 8px; line-height: 1.5;").mb-0
               span En la planeación: se utilizan para formular acciones, estrategias y procesos de seguimiento. 
     
-    p.mb-3 Lo invitamos a escuchar el siguiente pódcast.
+    p.mb-3 Lo invitamos al siguiente pódcast.
     .row.justify-content-center.mb-5(data-aos="zoom-in-right")
       .col-12.col-lg-8
         .tarjeta.color-primario.p-5.rounded-3.mb-3

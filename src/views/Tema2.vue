@@ -290,7 +290,7 @@
         figure
           img(src='@/assets/curso/tema2/img_19.png', class="img-fluid")
 
-    p.mb-3 Lo invitamos a escuchar el siguiente pódcast.
+    p.mb-3 Lo invitamos al siguiente pódcast.
     .row.justify-content-center.mb-5(data-aos="zoom-in-right")
       .col-12.col-lg-8
         .tarjeta.color-primario.p-5.rounded-3.mb-3
